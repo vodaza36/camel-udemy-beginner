@@ -1,0 +1,110 @@
+2018-09-12 19:27:48,879 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-12 19:27:48,882 | INFO | ManagedManagementStrategy.java 205 | JMX is enabled
+2018-09-12 19:27:49,063 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-12 19:27:49,173 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-12 19:27:49,176 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2018-09-12 19:27:49,177 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2018-09-12 19:27:49,210 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://data/input?noop=true
+2018-09-12 19:27:49,210 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-12 19:27:49,213 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.334 seconds
+2018-09-12 19:27:54,218 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-12 19:27:54,219 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2018-09-12 19:27:54,224 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2018-09-12 19:27:54,225 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-12 19:27:54,246 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.370 seconds
+2018-09-12 19:27:54,247 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.028 seconds
+2018-09-12 19:28:26,669 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-12 19:28:26,673 | INFO | ManagedManagementStrategy.java 205 | JMX is enabled
+2018-09-12 19:28:26,855 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-12 19:28:26,975 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-12 19:28:26,979 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2018-09-12 19:28:26,979 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2018-09-12 19:28:27,013 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://data/input?noop=true
+2018-09-12 19:28:27,014 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-12 19:28:27,017 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.348 seconds
+2018-09-12 19:28:32,020 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-12 19:28:32,021 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2018-09-12 19:28:32,026 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2018-09-12 19:28:32,026 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-12 19:28:32,047 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.381 seconds
+2018-09-12 19:28:32,048 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.028 seconds
+2018-09-12 19:35:46,751 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-12 19:35:46,754 | INFO | ManagedManagementStrategy.java 205 | JMX is enabled
+2018-09-12 19:35:46,942 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-12 19:35:47,063 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-12 19:35:47,066 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2018-09-12 19:35:47,066 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2018-09-12 19:35:47,102 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://data/input?noop=true
+2018-09-12 19:35:47,103 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-12 19:35:47,106 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.355 seconds
+2018-09-12 19:35:48,121 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-Thomass-MBP-fritz-box-1536773746524-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=/Users/xhocht/Development/github.com/camel-udemy-beginner/data/input/file2.txt, CamelFileLastModified=1536772472000, CamelFileLength=6, CamelFileName=file2.txt, CamelFileNameConsumed=file2.txt, CamelFileNameOnly=file2.txt, CamelFileParent=data/input, CamelFilePath=data/input/file2.txt, CamelFileRelativePath=file2.txt}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file2.txt]]]
+2018-09-12 19:35:48,135 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-Thomass-MBP-fritz-box-1536773746524-0-2, CamelFileAbsolute=false, CamelFileAbsolutePath=/Users/xhocht/Development/github.com/camel-udemy-beginner/data/input/file1.txt, CamelFileLastModified=1536772472000, CamelFileLength=5, CamelFileName=file1.txt, CamelFileNameConsumed=file1.txt, CamelFileNameOnly=file1.txt, CamelFileParent=data/input, CamelFilePath=data/input/file1.txt, CamelFileRelativePath=file1.txt}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file1.txt]]]
+2018-09-12 19:35:52,112 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-12 19:35:52,113 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2018-09-12 19:35:52,117 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2018-09-12 19:35:52,117 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-12 19:35:52,134 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.386 seconds
+2018-09-12 19:35:52,135 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.028 seconds
+2018-09-12 19:58:13,606 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-12 19:58:13,613 | INFO | ManagedManagementStrategy.java 205 | JMX is enabled
+2018-09-12 19:58:13,874 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-12 19:58:14,057 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-12 19:58:14,063 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2018-09-12 19:58:14,063 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2018-09-12 19:58:14,108 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2018-09-12 19:58:14,108 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2018-09-12 19:58:14,128 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://data/input?noop=true
+2018-09-12 19:58:14,131 | INFO | DefaultCamelContext.java 4026 | Route: route2 started and consuming from: file://data1/input?noop=true
+2018-09-12 19:58:14,132 | INFO | DefaultCamelContext.java 3195 | Total 2 routes, of which 2 are started
+2018-09-12 19:58:14,136 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.529 seconds
+2018-09-12 19:58:15,144 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-Thomass-MBP-fritz-box-1536775093268-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=/Users/xhocht/Development/github.com/camel-udemy-beginner/data/input/file2.txt, CamelFileLastModified=1536772472000, CamelFileLength=6, CamelFileName=file2.txt, CamelFileNameConsumed=file2.txt, CamelFileNameOnly=file2.txt, CamelFileParent=data/input, CamelFilePath=data/input/file2.txt, CamelFileRelativePath=file2.txt}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file2.txt]]]
+2018-09-12 19:58:15,161 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-Thomass-MBP-fritz-box-1536775093268-0-2, CamelFileAbsolute=false, CamelFileAbsolutePath=/Users/xhocht/Development/github.com/camel-udemy-beginner/data/input/file1.txt, CamelFileLastModified=1536772472000, CamelFileLength=5, CamelFileName=file1.txt, CamelFileNameConsumed=file1.txt, CamelFileNameOnly=file1.txt, CamelFileParent=data/input, CamelFilePath=data/input/file1.txt, CamelFileRelativePath=file1.txt}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file1.txt]]]
+2018-09-12 19:58:19,141 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-12 19:58:19,142 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 2 routes (timeout 300 seconds)
+2018-09-12 19:58:19,150 | INFO | DefaultShutdownStrategy.java 671 | Route: route2 shutdown complete, was consuming from: file://data1/input?noop=true
+2018-09-12 19:58:19,151 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2018-09-12 19:58:19,151 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2018-09-12 19:58:19,173 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.570 seconds
+2018-09-12 19:58:19,173 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.032 seconds
+2018-09-12 19:58:39,314 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-12 19:58:39,318 | INFO | ManagedManagementStrategy.java 205 | JMX is enabled
+2018-09-12 19:58:39,545 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-12 19:58:39,690 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-12 19:58:39,695 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2018-09-12 19:58:39,695 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2018-09-12 19:58:39,733 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2018-09-12 19:58:39,733 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2018-09-12 19:58:39,751 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://data/input?noop=true
+2018-09-12 19:58:39,754 | INFO | DefaultCamelContext.java 4026 | Route: route2 started and consuming from: file://data/input1?noop=true
+2018-09-12 19:58:39,755 | INFO | DefaultCamelContext.java 3195 | Total 2 routes, of which 2 are started
+2018-09-12 19:58:39,760 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.444 seconds
+2018-09-12 19:58:40,767 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-Thomass-MBP-fritz-box-1536775119029-0-1, CamelFileAbsolute=false, CamelFileAbsolutePath=/Users/xhocht/Development/github.com/camel-udemy-beginner/data/input/file2.txt, CamelFileLastModified=1536772472000, CamelFileLength=6, CamelFileName=file2.txt, CamelFileNameConsumed=file2.txt, CamelFileNameOnly=file2.txt, CamelFileParent=data/input, CamelFilePath=data/input/file2.txt, CamelFileRelativePath=file2.txt}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file2.txt]]]
+2018-09-12 19:58:40,781 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-Thomass-MBP-fritz-box-1536775119029-0-4, CamelFileAbsolute=false, CamelFileAbsolutePath=/Users/xhocht/Development/github.com/camel-udemy-beginner/data/input/file1.txt, CamelFileLastModified=1536772472000, CamelFileLength=5, CamelFileName=file1.txt, CamelFileNameConsumed=file1.txt, CamelFileNameOnly=file1.txt, CamelFileParent=data/input, CamelFilePath=data/input/file1.txt, CamelFileRelativePath=file1.txt}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file1.txt]]]
+2018-09-12 19:58:44,761 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-12 19:58:44,764 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 2 routes (timeout 300 seconds)
+2018-09-12 19:58:44,770 | INFO | DefaultShutdownStrategy.java 671 | Route: route2 shutdown complete, was consuming from: file://data/input1?noop=true
+2018-09-12 19:58:44,771 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2018-09-12 19:58:44,771 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2018-09-12 19:58:44,793 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.482 seconds
+2018-09-12 19:58:44,793 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.032 seconds
+2018-09-12 20:00:58,401 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-12 20:00:58,404 | INFO | ManagedManagementStrategy.java 205 | JMX is enabled
+2018-09-12 20:00:58,599 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-12 20:00:58,733 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-12 20:00:58,737 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2018-09-12 20:00:58,737 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2018-09-12 20:00:58,767 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2018-09-12 20:00:58,767 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2018-09-12 20:00:58,781 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://data/input?noop=true
+2018-09-12 20:00:58,783 | INFO | DefaultCamelContext.java 4026 | Route: route2 started and consuming from: file://data/input1?noop=true
+2018-09-12 20:00:58,783 | INFO | DefaultCamelContext.java 3195 | Total 2 routes, of which 2 are started
+2018-09-12 20:00:58,786 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.385 seconds
+2018-09-12 20:00:59,800 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-Thomass-MBP-fritz-box-1536775258160-0-2, CamelFileAbsolute=false, CamelFileAbsolutePath=/Users/xhocht/Development/github.com/camel-udemy-beginner/data/input/file2.txt, CamelFileLastModified=1536772472000, CamelFileLength=6, CamelFileName=file2.txt, CamelFileNameConsumed=file2.txt, CamelFileNameOnly=file2.txt, CamelFileParent=data/input, CamelFilePath=data/input/file2.txt, CamelFileRelativePath=file2.txt}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file2.txt]]]
+2018-09-12 20:00:59,818 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, Headers: {breadcrumbId=ID-Thomass-MBP-fritz-box-1536775258160-0-3, CamelFileAbsolute=false, CamelFileAbsolutePath=/Users/xhocht/Development/github.com/camel-udemy-beginner/data/input/file1.txt, CamelFileLastModified=1536772472000, CamelFileLength=5, CamelFileName=file1.txt, CamelFileNameConsumed=file1.txt, CamelFileNameOnly=file1.txt, CamelFileParent=data/input, CamelFilePath=data/input/file1.txt, CamelFileRelativePath=file1.txt}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file1.txt]]]
+2018-09-12 20:01:03,786 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-12 20:01:03,787 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 2 routes (timeout 300 seconds)
+2018-09-12 20:01:03,791 | INFO | DefaultShutdownStrategy.java 671 | Route: route2 shutdown complete, was consuming from: file://data/input1?noop=true
+2018-09-12 20:01:03,792 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2018-09-12 20:01:03,792 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 2 routes completed in 0 seconds
+2018-09-12 20:01:03,808 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.410 seconds
+2018-09-12 20:01:03,809 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.023 seconds
