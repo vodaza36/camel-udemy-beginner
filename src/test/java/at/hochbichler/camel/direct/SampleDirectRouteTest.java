@@ -7,14 +7,12 @@ import org.junit.Test;
 
 import java.io.File;
 
-import static org.junit.Assert.*;
-
 public class SampleDirectRouteTest extends CamelTestSupport {
 
     public static final String MAX_MUSTER_INSTRUCTOR = "124,Max Muster,Instructor";
 
     @Override
-    protected RoutesBuilder createRouteBuilder() throws Exception {
+    protected RoutesBuilder createRouteBuilder() {
         return new SampleDirectRoute();
     }
 

@@ -5,11 +5,9 @@ import org.apache.camel.component.mock.MockEndpoint;
 import org.apache.camel.test.junit4.CamelTestSupport;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class SampleMockRouteTest extends CamelTestSupport {
     @Override
-    protected RoutesBuilder createRouteBuilder() throws Exception {
+    protected RoutesBuilder createRouteBuilder() {
         return new SampleDirectRoute();
     }
 

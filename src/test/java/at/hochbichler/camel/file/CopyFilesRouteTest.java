@@ -1,6 +1,5 @@
 package at.hochbichler.camel.file;
 
-import at.hochbichler.camel.file.CopyFilesRoute;
 import org.apache.camel.RoutesBuilder;
 import org.apache.camel.test.junit4.CamelTestSupport;
 import org.junit.Test;
@@ -10,7 +9,7 @@ import java.io.File;
 public class CopyFilesRouteTest extends CamelTestSupport {
 
     @Override
-    protected RoutesBuilder createRouteBuilder() throws Exception {
+    protected RoutesBuilder createRouteBuilder() {
         return new CopyFilesRoute();
     }
 

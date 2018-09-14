@@ -10,7 +10,7 @@ public class CopyFilesCamelLog {
         try {
             context.addRoutes(new RouteBuilder() {
                 @Override
-                public void configure() throws Exception {
+                public void configure() {
                     from("file:data/input?noop=true")
                             .to("log:?level=INFO&showBody=true&showHeaders=true")
                             .to("file:data/output");

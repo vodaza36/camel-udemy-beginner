@@ -21,3 +21,8 @@ This repo contains the samples according to the Udemy course "Apache Camel for b
 10. Why Apache Camel?
 11. Camel Boiler Plate Code <https://github.com/dsaish3/learncamel-boilerplate.git>
 12. Processor in Camel
+13. Lab: Transform using Processor and Direct component
+14. Lab: Transform using transform() method
+15. Lab: Transform using bean() method
+16. Marshaling/UnMarshaling in Camel using XStream
+17. Marshaling/UnMarshaling XML to Java Object

@@ -462,3 +462,758 @@
 2018-09-13 20:31:53,257 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
 2018-09-13 20:31:53,270 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.178 seconds
 2018-09-13 20:31:53,271 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.018 seconds
+2018-09-14 08:07:10,776 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 08:07:10,776 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 08:07:10,780 | INFO | CamelTestSupport.java 244 | Testing: processorTest(at.hochbichler.camel.route.CamelModifyFileProcessorRouteTest)
+2018-09-14 08:07:10,780 | INFO | CamelTestSupport.java 244 | Testing: processorTest(at.hochbichler.camel.route.CamelModifyFileProcessorRouteTest)
+2018-09-14 08:07:10,780 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 08:07:10,780 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 08:07:11,209 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-14 08:07:11,211 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 08:07:11,262 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 08:07:11,359 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 08:07:11,364 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2018-09-14 08:07:11,364 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2018-09-14 08:07:11,375 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://data/input?noop=true
+2018-09-14 08:07:11,375 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 08:07:11,379 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.166 seconds
+2018-09-14 08:07:12,404 | INFO | CamelLogger.java 159 | Read file is World!
+2018-09-14 08:07:12,438 | INFO | CamelLogger.java 159 | Read file is Hello,Thomas,Hochbichler,1234
+2018-09-14 08:07:16,384 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 08:07:16,384 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 08:07:16,385 | INFO | CamelTestSupport.java 390 | Testing done: processorTest(at.hochbichler.camel.route.CamelModifyFileProcessorRouteTest)
+2018-09-14 08:07:16,385 | INFO | CamelTestSupport.java 390 | Testing done: processorTest(at.hochbichler.camel.route.CamelModifyFileProcessorRouteTest)
+2018-09-14 08:07:16,387 | INFO | CamelTestSupport.java 391 | Took: 5.004 seconds (5004 millis)
+2018-09-14 08:07:16,387 | INFO | CamelTestSupport.java 391 | Took: 5.004 seconds (5004 millis)
+2018-09-14 08:07:16,387 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 08:07:16,387 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 08:07:16,388 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-14 08:07:16,389 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 08:07:16,393 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2018-09-14 08:07:16,394 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 08:07:16,407 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.198 seconds
+2018-09-14 08:07:16,407 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.019 seconds
+2018-09-14 08:12:07,299 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 08:12:07,299 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 08:12:07,330 | INFO | CamelTestSupport.java 244 | Testing: processorTest(at.hochbichler.camel.route.CamelModifyFileProcessorRouteTest)
+2018-09-14 08:12:07,330 | INFO | CamelTestSupport.java 244 | Testing: processorTest(at.hochbichler.camel.route.CamelModifyFileProcessorRouteTest)
+2018-09-14 08:12:07,330 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 08:12:07,330 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 08:12:07,673 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-14 08:12:07,674 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 08:12:07,717 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 08:12:07,811 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 08:12:07,815 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2018-09-14 08:12:07,816 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2018-09-14 08:12:07,827 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://data/input?noop=true
+2018-09-14 08:12:07,828 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 08:12:07,831 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.156 seconds
+2018-09-14 08:12:08,846 | INFO | CamelLogger.java 159 | Read file is World!
+2018-09-14 08:12:08,877 | INFO | CamelLogger.java 159 | Read file is Hello,Thomas,Hochbichler,1234
+2018-09-14 08:12:12,836 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-09-14 08:12:12,837 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 08:12:12,837 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 08:12:12,840 | INFO | CamelTestSupport.java 390 | Testing done: processorTest(at.hochbichler.camel.route.CamelModifyFileProcessorRouteTest)
+2018-09-14 08:12:12,840 | INFO | CamelTestSupport.java 390 | Testing done: processorTest(at.hochbichler.camel.route.CamelModifyFileProcessorRouteTest)
+2018-09-14 08:12:12,840 | INFO | CamelTestSupport.java 391 | Took: 5.005 seconds (5005 millis)
+2018-09-14 08:12:12,840 | INFO | CamelTestSupport.java 391 | Took: 5.005 seconds (5005 millis)
+2018-09-14 08:12:12,841 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 08:12:12,841 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 08:12:12,842 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-14 08:12:12,843 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 08:12:12,847 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2018-09-14 08:12:12,847 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 08:12:12,858 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.186 seconds
+2018-09-14 08:12:12,859 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.017 seconds
+2018-09-14 08:16:48,288 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 08:16:48,288 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 08:16:48,291 | INFO | CamelTestSupport.java 244 | Testing: processorTest(at.hochbichler.camel.route.CamelModifyFileProcessorRouteTest)
+2018-09-14 08:16:48,291 | INFO | CamelTestSupport.java 244 | Testing: processorTest(at.hochbichler.camel.route.CamelModifyFileProcessorRouteTest)
+2018-09-14 08:16:48,291 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 08:16:48,291 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 08:16:48,619 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-14 08:16:48,620 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 08:16:48,666 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 08:16:48,756 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 08:16:48,759 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2018-09-14 08:16:48,760 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2018-09-14 08:16:48,770 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://data/input?noop=true
+2018-09-14 08:16:48,771 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 08:16:48,773 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.152 seconds
+2018-09-14 08:16:49,792 | INFO | CamelLogger.java 159 | Read file is World!
+2018-09-14 08:16:49,817 | INFO | CamelLogger.java 159 | Read file is Hello,Thomas,Hochbichler,1234
+2018-09-14 08:16:53,775 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-09-14 08:16:53,776 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 08:16:53,776 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 08:16:53,778 | INFO | CamelTestSupport.java 390 | Testing done: processorTest(at.hochbichler.camel.route.CamelModifyFileProcessorRouteTest)
+2018-09-14 08:16:53,778 | INFO | CamelTestSupport.java 390 | Testing done: processorTest(at.hochbichler.camel.route.CamelModifyFileProcessorRouteTest)
+2018-09-14 08:16:53,779 | INFO | CamelTestSupport.java 391 | Took: 5.002 seconds (5002 millis)
+2018-09-14 08:16:53,779 | INFO | CamelTestSupport.java 391 | Took: 5.002 seconds (5002 millis)
+2018-09-14 08:16:53,779 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 08:16:53,779 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 08:16:53,783 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-14 08:16:53,784 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 08:16:53,787 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://data/input?noop=true
+2018-09-14 08:16:53,787 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 08:16:53,798 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.179 seconds
+2018-09-14 08:16:53,798 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2018-09-14 08:28:42,019 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 08:28:42,019 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 08:28:42,022 | INFO | CamelTestSupport.java 244 | Testing: route(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 08:28:42,022 | INFO | CamelTestSupport.java 244 | Testing: route(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 08:28:42,022 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 08:28:42,022 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 08:28:42,352 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-14 08:28:42,353 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 08:28:42,402 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 08:28:42,499 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 08:28:42,505 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://processInput
+2018-09-14 08:28:42,505 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 08:28:42,508 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.153 seconds
+2018-09-14 08:28:42,509 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 08:28:42,509 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 08:28:42,509 | INFO | CamelTestSupport.java 390 | Testing done: route(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 08:28:42,509 | INFO | CamelTestSupport.java 390 | Testing done: route(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 08:28:42,509 | INFO | CamelTestSupport.java 391 | Took: 0.001 seconds (1 millis)
+2018-09-14 08:28:42,509 | INFO | CamelTestSupport.java 391 | Took: 0.001 seconds (1 millis)
+2018-09-14 08:28:42,509 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 08:28:42,509 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 08:28:42,510 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-14 08:28:42,511 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 08:28:42,515 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://processInput
+2018-09-14 08:28:42,515 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 08:28:42,528 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.176 seconds
+2018-09-14 08:28:42,528 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.018 seconds
+2018-09-14 08:32:09,442 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 08:32:09,442 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 08:32:09,444 | INFO | CamelTestSupport.java 244 | Testing: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 08:32:09,444 | INFO | CamelTestSupport.java 244 | Testing: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 08:32:09,445 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 08:32:09,445 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 08:32:09,767 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-14 08:32:09,768 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 08:32:09,815 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 08:32:09,900 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 08:32:09,905 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://processInput
+2018-09-14 08:32:09,905 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 08:32:09,908 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.138 seconds
+2018-09-14 08:32:09,919 | INFO | CamelLogger.java 159 | Receive message 123;Thomas
+2018-09-14 08:32:09,936 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 08:32:09,936 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 08:32:09,937 | INFO | CamelTestSupport.java 390 | Testing done: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 08:32:09,937 | INFO | CamelTestSupport.java 390 | Testing done: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 08:32:09,937 | INFO | CamelTestSupport.java 391 | Took: 0.028 seconds (28 millis)
+2018-09-14 08:32:09,937 | INFO | CamelTestSupport.java 391 | Took: 0.028 seconds (28 millis)
+2018-09-14 08:32:09,937 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 08:32:09,937 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 08:32:09,939 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-14 08:32:09,941 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 08:32:09,945 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://processInput
+2018-09-14 08:32:09,945 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 08:32:09,955 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.188 seconds
+2018-09-14 08:32:09,955 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.016 seconds
+2018-09-14 08:34:02,294 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 08:34:02,294 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 08:34:02,296 | INFO | CamelTestSupport.java 244 | Testing: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 08:34:02,296 | INFO | CamelTestSupport.java 244 | Testing: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 08:34:02,296 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 08:34:02,296 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 08:34:02,633 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-14 08:34:02,634 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 08:34:02,671 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 08:34:02,754 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 08:34:02,759 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://processInput
+2018-09-14 08:34:02,760 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 08:34:02,763 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.128 seconds
+2018-09-14 08:34:02,773 | INFO | CamelLogger.java 159 | Receive message 123;Thomas
+2018-09-14 08:34:02,792 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 08:34:02,792 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 08:34:02,792 | INFO | CamelTestSupport.java 390 | Testing done: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 08:34:02,792 | INFO | CamelTestSupport.java 390 | Testing done: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 08:34:02,792 | INFO | CamelTestSupport.java 391 | Took: 0.028 seconds (28 millis)
+2018-09-14 08:34:02,792 | INFO | CamelTestSupport.java 391 | Took: 0.028 seconds (28 millis)
+2018-09-14 08:34:02,793 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 08:34:02,793 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 08:34:02,795 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-14 08:34:02,797 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 08:34:02,801 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://processInput
+2018-09-14 08:34:02,801 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 08:34:02,812 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.180 seconds
+2018-09-14 08:34:02,812 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.017 seconds
+2018-09-14 08:45:20,506 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 08:45:20,506 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 08:45:20,508 | INFO | CamelTestSupport.java 244 | Testing: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 08:45:20,508 | INFO | CamelTestSupport.java 244 | Testing: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 08:45:20,508 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 08:45:20,508 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 08:45:20,837 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-14 08:45:20,838 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 08:45:20,883 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 08:45:20,964 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 08:45:20,970 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://processInput
+2018-09-14 08:45:20,970 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 08:45:20,973 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.133 seconds
+2018-09-14 08:45:20,982 | INFO | CamelLogger.java 159 | Receive message 123;Thomas
+2018-09-14 08:45:21,000 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 08:45:21,000 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 08:45:21,001 | INFO | CamelTestSupport.java 390 | Testing done: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 08:45:21,001 | INFO | CamelTestSupport.java 390 | Testing done: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 08:45:21,001 | INFO | CamelTestSupport.java 391 | Took: 0.026 seconds (26 millis)
+2018-09-14 08:45:21,001 | INFO | CamelTestSupport.java 391 | Took: 0.026 seconds (26 millis)
+2018-09-14 08:45:21,001 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 08:45:21,001 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 08:45:21,003 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-14 08:45:21,005 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 08:45:21,008 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://processInput
+2018-09-14 08:45:21,009 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 08:45:21,019 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.182 seconds
+2018-09-14 08:45:21,019 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.016 seconds
+2018-09-14 08:45:33,925 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 08:45:33,925 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 08:45:33,927 | INFO | CamelTestSupport.java 244 | Testing: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 08:45:33,927 | INFO | CamelTestSupport.java 244 | Testing: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 08:45:33,927 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 08:45:33,927 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 08:45:34,237 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-14 08:45:34,239 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 08:45:34,288 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 08:45:34,377 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 08:45:34,382 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://processInput
+2018-09-14 08:45:34,382 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 08:45:34,385 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.145 seconds
+2018-09-14 08:45:34,396 | INFO | CamelLogger.java 159 | Receive message 123;Thomas
+2018-09-14 08:45:34,414 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 08:45:34,414 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 08:45:34,414 | INFO | CamelTestSupport.java 390 | Testing done: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 08:45:34,414 | INFO | CamelTestSupport.java 390 | Testing done: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 08:45:34,415 | INFO | CamelTestSupport.java 391 | Took: 0.028 seconds (28 millis)
+2018-09-14 08:45:34,415 | INFO | CamelTestSupport.java 391 | Took: 0.028 seconds (28 millis)
+2018-09-14 08:45:34,415 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 08:45:34,415 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 08:45:34,417 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-14 08:45:34,418 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 08:45:34,422 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://processInput
+2018-09-14 08:45:34,422 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 08:45:34,433 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.196 seconds
+2018-09-14 08:45:34,433 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.016 seconds
+2018-09-14 13:43:28,502 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 13:43:28,502 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 13:43:28,504 | INFO | CamelTestSupport.java 244 | Testing: processorDirectMock(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:43:28,504 | INFO | CamelTestSupport.java 244 | Testing: processorDirectMock(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:43:28,505 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 13:43:28,505 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 13:43:28,896 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-14 13:43:28,897 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 13:43:28,955 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 13:43:29,065 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 13:43:29,072 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://processInput
+2018-09-14 13:43:29,073 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 13:43:29,077 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.178 seconds
+2018-09-14 13:43:29,078 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-09-14 13:43:29,079 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 13:43:29,079 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 13:43:29,079 | INFO | CamelTestSupport.java 390 | Testing done: processorDirectMock(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:43:29,079 | INFO | CamelTestSupport.java 390 | Testing done: processorDirectMock(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:43:29,079 | INFO | CamelTestSupport.java 391 | Took: 0.002 seconds (2 millis)
+2018-09-14 13:43:29,079 | INFO | CamelTestSupport.java 391 | Took: 0.002 seconds (2 millis)
+2018-09-14 13:43:29,079 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 13:43:29,079 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 13:43:29,080 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-14 13:43:29,082 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 13:43:29,086 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://processInput
+2018-09-14 13:43:29,086 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 13:43:29,103 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.208 seconds
+2018-09-14 13:43:29,104 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.024 seconds
+2018-09-14 13:43:29,105 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 13:43:29,105 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 13:43:29,106 | INFO | CamelTestSupport.java 244 | Testing: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:43:29,106 | INFO | CamelTestSupport.java 244 | Testing: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:43:29,106 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 13:43:29,106 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 13:43:29,109 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-2) is starting
+2018-09-14 13:43:29,109 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 13:43:29,112 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 13:43:29,129 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 13:43:29,131 | INFO | DefaultCamelContext.java 4026 | Route: route2 started and consuming from: direct://processInput
+2018-09-14 13:43:29,131 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 13:43:29,131 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-2) started in 0.023 seconds
+2018-09-14 13:43:29,146 | INFO | CamelLogger.java 159 | Receive message 123;Thomas
+2018-09-14 13:43:29,170 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 13:43:29,170 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 13:43:29,170 | INFO | CamelTestSupport.java 390 | Testing done: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:43:29,170 | INFO | CamelTestSupport.java 390 | Testing done: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:43:29,170 | INFO | CamelTestSupport.java 391 | Took: 0.038 seconds (38 millis)
+2018-09-14 13:43:29,170 | INFO | CamelTestSupport.java 391 | Took: 0.038 seconds (38 millis)
+2018-09-14 13:43:29,170 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 13:43:29,170 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 13:43:29,171 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-2) is shutting down
+2018-09-14 13:43:29,171 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 13:43:29,172 | INFO | DefaultShutdownStrategy.java 671 | Route: route2 shutdown complete, was consuming from: direct://processInput
+2018-09-14 13:43:29,172 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 13:43:29,173 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-2) uptime 0.065 seconds
+2018-09-14 13:43:29,173 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-2) is shutdown in 0.002 seconds
+2018-09-14 13:44:00,014 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 13:44:00,014 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 13:44:00,016 | INFO | CamelTestSupport.java 244 | Testing: processorDirectMock(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:44:00,016 | INFO | CamelTestSupport.java 244 | Testing: processorDirectMock(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:44:00,016 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 13:44:00,016 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 13:44:00,350 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-14 13:44:00,351 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 13:44:00,395 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 13:44:00,494 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 13:44:00,499 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://processInput
+2018-09-14 13:44:00,500 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 13:44:00,502 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.151 seconds
+2018-09-14 13:44:00,504 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 13:44:00,504 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 13:44:00,504 | INFO | CamelTestSupport.java 390 | Testing done: processorDirectMock(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:44:00,504 | INFO | CamelTestSupport.java 390 | Testing done: processorDirectMock(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:44:00,505 | INFO | CamelTestSupport.java 391 | Took: 0.001 seconds (1 millis)
+2018-09-14 13:44:00,505 | INFO | CamelTestSupport.java 391 | Took: 0.001 seconds (1 millis)
+2018-09-14 13:44:00,505 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 13:44:00,505 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 13:44:00,505 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-14 13:44:00,506 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 13:44:00,511 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://processInput
+2018-09-14 13:44:00,511 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 13:44:00,524 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.175 seconds
+2018-09-14 13:44:00,525 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.020 seconds
+2018-09-14 13:44:00,533 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 13:44:00,533 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 13:44:00,533 | INFO | CamelTestSupport.java 244 | Testing: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:44:00,533 | INFO | CamelTestSupport.java 244 | Testing: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:44:00,533 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 13:44:00,533 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 13:44:00,536 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-2) is starting
+2018-09-14 13:44:00,537 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 13:44:00,540 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 13:44:00,552 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 13:44:00,554 | INFO | DefaultCamelContext.java 4026 | Route: route2 started and consuming from: direct://processInput
+2018-09-14 13:44:00,554 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 13:44:00,555 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-2) started in 0.019 seconds
+2018-09-14 13:44:00,566 | INFO | CamelLogger.java 159 | Receive message 123;Thomas
+2018-09-14 13:44:00,591 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 13:44:00,591 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 13:44:00,592 | INFO | CamelTestSupport.java 390 | Testing done: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:44:00,592 | INFO | CamelTestSupport.java 390 | Testing done: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:44:00,592 | INFO | CamelTestSupport.java 391 | Took: 0.036 seconds (36 millis)
+2018-09-14 13:44:00,592 | INFO | CamelTestSupport.java 391 | Took: 0.036 seconds (36 millis)
+2018-09-14 13:44:00,592 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 13:44:00,592 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 13:44:00,593 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-2) is shutting down
+2018-09-14 13:44:00,593 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 13:44:00,593 | INFO | DefaultShutdownStrategy.java 671 | Route: route2 shutdown complete, was consuming from: direct://processInput
+2018-09-14 13:44:00,594 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 13:44:00,595 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-2) uptime 0.059 seconds
+2018-09-14 13:44:00,595 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-2) is shutdown in 0.002 seconds
+2018-09-14 13:44:48,776 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 13:44:48,776 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 13:44:48,779 | INFO | CamelTestSupport.java 244 | Testing: processorDirectMock(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:44:48,779 | INFO | CamelTestSupport.java 244 | Testing: processorDirectMock(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:44:48,780 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 13:44:48,780 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 13:44:49,111 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-14 13:44:49,112 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 13:44:49,152 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 13:44:49,245 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 13:44:49,251 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://processInput
+2018-09-14 13:44:49,251 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 13:44:49,254 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.141 seconds
+2018-09-14 13:44:49,255 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 13:44:49,255 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 13:44:49,255 | INFO | CamelTestSupport.java 390 | Testing done: processorDirectMock(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:44:49,255 | INFO | CamelTestSupport.java 390 | Testing done: processorDirectMock(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:44:49,256 | INFO | CamelTestSupport.java 391 | Took: 0.001 seconds (1 millis)
+2018-09-14 13:44:49,256 | INFO | CamelTestSupport.java 391 | Took: 0.001 seconds (1 millis)
+2018-09-14 13:44:49,256 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 13:44:49,256 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 13:44:49,257 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-14 13:44:49,257 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 13:44:49,262 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://processInput
+2018-09-14 13:44:49,262 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 13:44:49,276 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.166 seconds
+2018-09-14 13:44:49,276 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.019 seconds
+2018-09-14 13:44:49,282 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 13:44:49,282 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 13:44:49,282 | INFO | CamelTestSupport.java 244 | Testing: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:44:49,282 | INFO | CamelTestSupport.java 244 | Testing: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:44:49,283 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 13:44:49,283 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 13:44:49,285 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-2) is starting
+2018-09-14 13:44:49,286 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 13:44:49,289 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 13:44:49,302 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 13:44:49,303 | INFO | DefaultCamelContext.java 4026 | Route: route2 started and consuming from: direct://processInput
+2018-09-14 13:44:49,304 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 13:44:49,304 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-2) started in 0.019 seconds
+2018-09-14 13:44:49,314 | INFO | CamelLogger.java 159 | Receive message 123;Thomas
+2018-09-14 13:44:49,335 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 13:44:49,335 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 13:44:49,336 | INFO | CamelTestSupport.java 390 | Testing done: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:44:49,336 | INFO | CamelTestSupport.java 390 | Testing done: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:44:49,336 | INFO | CamelTestSupport.java 391 | Took: 0.031 seconds (31 millis)
+2018-09-14 13:44:49,336 | INFO | CamelTestSupport.java 391 | Took: 0.031 seconds (31 millis)
+2018-09-14 13:44:49,336 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 13:44:49,336 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 13:44:49,337 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-2) is shutting down
+2018-09-14 13:44:49,337 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 13:44:49,338 | INFO | DefaultShutdownStrategy.java 671 | Route: route2 shutdown complete, was consuming from: direct://processInput
+2018-09-14 13:44:49,338 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 13:44:49,339 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-2) uptime 0.054 seconds
+2018-09-14 13:44:49,340 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-2) is shutdown in 0.003 seconds
+2018-09-14 13:45:06,077 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 13:45:06,077 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 13:45:06,080 | INFO | CamelTestSupport.java 244 | Testing: processorDirectMock(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:45:06,080 | INFO | CamelTestSupport.java 244 | Testing: processorDirectMock(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:45:06,080 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 13:45:06,080 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 13:45:06,415 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-14 13:45:06,416 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 13:45:06,466 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 13:45:06,566 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 13:45:06,572 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://processInput
+2018-09-14 13:45:06,572 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 13:45:06,575 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.157 seconds
+2018-09-14 13:45:06,585 | INFO | CamelLogger.java 159 | Receive message 123;Thomas
+2018-09-14 13:45:06,606 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-09-14 13:45:06,606 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 13:45:06,606 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 13:45:06,607 | INFO | CamelTestSupport.java 390 | Testing done: processorDirectMock(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:45:06,607 | INFO | CamelTestSupport.java 390 | Testing done: processorDirectMock(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:45:06,607 | INFO | CamelTestSupport.java 391 | Took: 0.031 seconds (31 millis)
+2018-09-14 13:45:06,607 | INFO | CamelTestSupport.java 391 | Took: 0.031 seconds (31 millis)
+2018-09-14 13:45:06,607 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 13:45:06,607 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 13:45:06,611 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-14 13:45:06,611 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 13:45:06,615 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://processInput
+2018-09-14 13:45:06,616 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 13:45:06,626 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.211 seconds
+2018-09-14 13:45:06,626 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2018-09-14 13:45:06,628 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 13:45:06,628 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 13:45:06,628 | INFO | CamelTestSupport.java 244 | Testing: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:45:06,628 | INFO | CamelTestSupport.java 244 | Testing: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:45:06,628 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 13:45:06,628 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 13:45:06,631 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-2) is starting
+2018-09-14 13:45:06,632 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 13:45:06,636 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 13:45:06,648 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 13:45:06,649 | INFO | DefaultCamelContext.java 4026 | Route: route2 started and consuming from: direct://processInput
+2018-09-14 13:45:06,649 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 13:45:06,650 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-2) started in 0.019 seconds
+2018-09-14 13:45:06,650 | INFO | CamelLogger.java 159 | Receive message 123;Thomas
+2018-09-14 13:45:06,652 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 13:45:06,652 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 13:45:06,652 | INFO | CamelTestSupport.java 390 | Testing done: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:45:06,652 | INFO | CamelTestSupport.java 390 | Testing done: processDirectInput(at.hochbichler.camel.route.process.CamelModifyDirectProcessorRouteTest)
+2018-09-14 13:45:06,652 | INFO | CamelTestSupport.java 391 | Took: 0.002 seconds (2 millis)
+2018-09-14 13:45:06,652 | INFO | CamelTestSupport.java 391 | Took: 0.002 seconds (2 millis)
+2018-09-14 13:45:06,652 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 13:45:06,652 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 13:45:06,652 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-2) is shutting down
+2018-09-14 13:45:06,653 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 13:45:06,654 | INFO | DefaultShutdownStrategy.java 671 | Route: route2 shutdown complete, was consuming from: direct://processInput
+2018-09-14 13:45:06,654 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 13:45:06,655 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-2) uptime 0.024 seconds
+2018-09-14 13:45:06,655 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-2) is shutdown in 0.003 seconds
+2018-09-14 13:56:58,865 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 13:56:58,865 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 13:56:58,868 | INFO | CamelTestSupport.java 244 | Testing: transform(at.hochbichler.camel.route.transform.CamelModifyTransferRouteTest)
+2018-09-14 13:56:58,868 | INFO | CamelTestSupport.java 244 | Testing: transform(at.hochbichler.camel.route.transform.CamelModifyTransferRouteTest)
+2018-09-14 13:56:58,868 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 13:56:58,868 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 13:56:59,212 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-14 13:56:59,213 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 13:56:59,252 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 13:56:59,321 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 13:56:59,328 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://transformInput
+2018-09-14 13:56:59,328 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 13:56:59,331 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.116 seconds
+2018-09-14 13:56:59,349 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-09-14 13:56:59,349 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 13:56:59,349 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 13:56:59,350 | INFO | CamelTestSupport.java 390 | Testing done: transform(at.hochbichler.camel.route.transform.CamelModifyTransferRouteTest)
+2018-09-14 13:56:59,350 | INFO | CamelTestSupport.java 390 | Testing done: transform(at.hochbichler.camel.route.transform.CamelModifyTransferRouteTest)
+2018-09-14 13:56:59,350 | INFO | CamelTestSupport.java 391 | Took: 0.018 seconds (18 millis)
+2018-09-14 13:56:59,350 | INFO | CamelTestSupport.java 391 | Took: 0.018 seconds (18 millis)
+2018-09-14 13:56:59,350 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 13:56:59,350 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 13:56:59,353 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-14 13:56:59,354 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 13:56:59,357 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://transformInput
+2018-09-14 13:56:59,357 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 13:56:59,368 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.156 seconds
+2018-09-14 13:56:59,369 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.016 seconds
+2018-09-14 14:10:20,444 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 14:10:20,444 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 14:10:20,447 | INFO | CamelTestSupport.java 244 | Testing: testBeanTransform(at.hochbichler.camel.route.bean.CamelModifyBeanRouteTest)
+2018-09-14 14:10:20,447 | INFO | CamelTestSupport.java 244 | Testing: testBeanTransform(at.hochbichler.camel.route.bean.CamelModifyBeanRouteTest)
+2018-09-14 14:10:20,447 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 14:10:20,447 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 14:10:20,786 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-14 14:10:20,787 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 14:10:20,829 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 14:10:20,910 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 14:10:20,916 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://beanTransform
+2018-09-14 14:10:20,917 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 14:10:20,919 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.131 seconds
+2018-09-14 14:10:20,920 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 14:10:20,920 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 14:10:20,921 | INFO | CamelTestSupport.java 390 | Testing done: testBeanTransform(at.hochbichler.camel.route.bean.CamelModifyBeanRouteTest)
+2018-09-14 14:10:20,921 | INFO | CamelTestSupport.java 390 | Testing done: testBeanTransform(at.hochbichler.camel.route.bean.CamelModifyBeanRouteTest)
+2018-09-14 14:10:20,921 | INFO | CamelTestSupport.java 391 | Took: 0.000 seconds (0 millis)
+2018-09-14 14:10:20,921 | INFO | CamelTestSupport.java 391 | Took: 0.000 seconds (0 millis)
+2018-09-14 14:10:20,921 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 14:10:20,921 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 14:10:20,922 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-14 14:10:20,922 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 14:10:20,926 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://beanTransform
+2018-09-14 14:10:20,926 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 14:10:20,937 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.151 seconds
+2018-09-14 14:10:20,938 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2018-09-14 14:10:46,896 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 14:10:46,896 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 14:10:46,899 | INFO | CamelTestSupport.java 244 | Testing: testBeanTransform(at.hochbichler.camel.route.bean.CamelModifyBeanRouteTest)
+2018-09-14 14:10:46,899 | INFO | CamelTestSupport.java 244 | Testing: testBeanTransform(at.hochbichler.camel.route.bean.CamelModifyBeanRouteTest)
+2018-09-14 14:10:46,899 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 14:10:46,899 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 14:10:47,229 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-14 14:10:47,230 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 14:10:47,267 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 14:10:47,347 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 14:10:47,356 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://beanTransform
+2018-09-14 14:10:47,356 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 14:10:47,359 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.127 seconds
+2018-09-14 14:10:47,371 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-09-14 14:10:47,372 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 14:10:47,372 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 14:10:47,372 | INFO | CamelTestSupport.java 390 | Testing done: testBeanTransform(at.hochbichler.camel.route.bean.CamelModifyBeanRouteTest)
+2018-09-14 14:10:47,372 | INFO | CamelTestSupport.java 390 | Testing done: testBeanTransform(at.hochbichler.camel.route.bean.CamelModifyBeanRouteTest)
+2018-09-14 14:10:47,372 | INFO | CamelTestSupport.java 391 | Took: 0.013 seconds (13 millis)
+2018-09-14 14:10:47,372 | INFO | CamelTestSupport.java 391 | Took: 0.013 seconds (13 millis)
+2018-09-14 14:10:47,373 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 14:10:47,373 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 14:10:47,376 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-14 14:10:47,377 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 14:10:47,381 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://beanTransform
+2018-09-14 14:10:47,381 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 14:10:47,393 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.164 seconds
+2018-09-14 14:10:47,393 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.017 seconds
+2018-09-14 16:31:34,536 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 16:31:34,536 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 16:31:34,539 | INFO | CamelTestSupport.java 244 | Testing: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:31:34,539 | INFO | CamelTestSupport.java 244 | Testing: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:31:34,539 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 16:31:34,539 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 16:31:34,956 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-14 16:31:34,957 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 16:31:35,001 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 16:31:35,079 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 16:31:35,252 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-14 16:31:35,269 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.312 seconds
+2018-09-14 16:31:35,269 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.017 seconds
+2018-09-14 16:31:35,270 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 16:31:35,270 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 16:31:35,270 | INFO | CamelTestSupport.java 390 | Testing done: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:31:35,270 | INFO | CamelTestSupport.java 390 | Testing done: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:31:35,271 | INFO | CamelTestSupport.java 391 | Took: 0.736 seconds (736 millis)
+2018-09-14 16:31:35,271 | INFO | CamelTestSupport.java 391 | Took: 0.736 seconds (736 millis)
+2018-09-14 16:31:35,271 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 16:31:35,271 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 16:32:54,160 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 16:32:54,160 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 16:32:54,162 | INFO | CamelTestSupport.java 244 | Testing: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:32:54,162 | INFO | CamelTestSupport.java 244 | Testing: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:32:54,162 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 16:32:54,162 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 16:32:54,498 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-14 16:32:54,499 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 16:32:54,536 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 16:32:54,608 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 16:32:54,737 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-14 16:32:54,753 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.253 seconds
+2018-09-14 16:32:54,753 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.016 seconds
+2018-09-14 16:32:54,753 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 16:32:54,753 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 16:32:54,754 | INFO | CamelTestSupport.java 390 | Testing done: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:32:54,754 | INFO | CamelTestSupport.java 390 | Testing done: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:32:54,754 | INFO | CamelTestSupport.java 391 | Took: 0.595 seconds (595 millis)
+2018-09-14 16:32:54,754 | INFO | CamelTestSupport.java 391 | Took: 0.595 seconds (595 millis)
+2018-09-14 16:32:54,754 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 16:32:54,754 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 16:34:33,275 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 16:34:33,275 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 16:34:33,278 | INFO | CamelTestSupport.java 244 | Testing: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:34:33,278 | INFO | CamelTestSupport.java 244 | Testing: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:34:33,278 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 16:34:33,278 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 16:34:33,615 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-14 16:34:33,616 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 16:34:33,655 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 16:34:33,724 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 16:34:33,863 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://csvInput
+2018-09-14 16:34:33,863 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 16:34:33,866 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.249 seconds
+2018-09-14 16:34:33,920 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, BodyType: byte[], Body: <?xml version='1.0' encoding='UTF-8'?><at.hochbichler.camel.processor.Employee><id>123</id><name>Thomas</name><joinDate>2006</joinDate></at.hochbichler.camel.processor.Employee>]
+2018-09-14 16:34:33,920 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 16:34:33,920 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 16:34:33,920 | INFO | CamelTestSupport.java 390 | Testing done: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:34:33,920 | INFO | CamelTestSupport.java 390 | Testing done: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:34:33,921 | INFO | CamelTestSupport.java 391 | Took: 0.054 seconds (54 millis)
+2018-09-14 16:34:33,921 | INFO | CamelTestSupport.java 391 | Took: 0.054 seconds (54 millis)
+2018-09-14 16:34:33,921 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 16:34:33,921 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 16:34:33,925 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-14 16:34:33,927 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 16:34:33,931 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://csvInput
+2018-09-14 16:34:33,931 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 16:34:33,940 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.325 seconds
+2018-09-14 16:34:33,940 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2018-09-14 16:37:51,133 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 16:37:51,133 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 16:37:51,136 | INFO | CamelTestSupport.java 244 | Testing: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:37:51,136 | INFO | CamelTestSupport.java 244 | Testing: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:37:51,136 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 16:37:51,136 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 16:37:51,486 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-14 16:37:51,487 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 16:37:51,527 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 16:37:51,604 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 16:37:51,736 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://csvInput
+2018-09-14 16:37:51,736 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 16:37:51,738 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.250 seconds
+2018-09-14 16:37:51,786 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, BodyType: byte[], Body: <?xml version='1.0' encoding='UTF-8'?><at.hochbichler.camel.processor.Employee><id>123</id><name>Thomas</name><joinDate>2006</joinDate></at.hochbichler.camel.processor.Employee>]
+2018-09-14 16:37:51,787 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-09-14 16:37:51,787 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 16:37:51,787 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 16:37:51,787 | INFO | CamelTestSupport.java 390 | Testing done: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:37:51,787 | INFO | CamelTestSupport.java 390 | Testing done: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:37:51,787 | INFO | CamelTestSupport.java 391 | Took: 0.048 seconds (48 millis)
+2018-09-14 16:37:51,787 | INFO | CamelTestSupport.java 391 | Took: 0.048 seconds (48 millis)
+2018-09-14 16:37:51,788 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 16:37:51,788 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 16:37:51,794 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-14 16:37:51,794 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 16:37:51,802 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://csvInput
+2018-09-14 16:37:51,802 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 16:37:51,812 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.326 seconds
+2018-09-14 16:37:51,813 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.019 seconds
+2018-09-14 16:39:11,745 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 16:39:11,745 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 16:39:11,748 | INFO | CamelTestSupport.java 244 | Testing: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:39:11,748 | INFO | CamelTestSupport.java 244 | Testing: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:39:11,748 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 16:39:11,748 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 16:39:12,095 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-14 16:39:12,095 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 16:39:12,132 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 16:39:12,207 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 16:39:12,343 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://csvInput
+2018-09-14 16:39:12,344 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 16:39:12,346 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.250 seconds
+2018-09-14 16:39:12,396 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, BodyType: byte[], Body: <?xml version='1.0' encoding='UTF-8'?><at.hochbichler.camel.processor.Employee><id>123</id><name>Thomas</name><joinDate>2006</joinDate></at.hochbichler.camel.processor.Employee>]
+2018-09-14 16:39:12,397 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-09-14 16:39:12,398 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 16:39:12,398 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 16:39:12,398 | INFO | CamelTestSupport.java 390 | Testing done: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:39:12,398 | INFO | CamelTestSupport.java 390 | Testing done: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:39:12,398 | INFO | CamelTestSupport.java 391 | Took: 0.051 seconds (51 millis)
+2018-09-14 16:39:12,398 | INFO | CamelTestSupport.java 391 | Took: 0.051 seconds (51 millis)
+2018-09-14 16:39:12,398 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 16:39:12,398 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 16:39:12,403 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-14 16:39:12,404 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 16:39:12,409 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://csvInput
+2018-09-14 16:39:12,409 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 16:39:12,418 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.324 seconds
+2018-09-14 16:39:12,419 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2018-09-14 16:39:25,988 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 16:39:25,988 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 16:39:25,990 | INFO | CamelTestSupport.java 244 | Testing: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:39:25,990 | INFO | CamelTestSupport.java 244 | Testing: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:39:25,990 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 16:39:25,990 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 16:39:26,325 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-14 16:39:26,326 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 16:39:26,361 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 16:39:26,429 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 16:39:26,557 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://csvInput
+2018-09-14 16:39:26,558 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 16:39:26,559 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.233 seconds
+2018-09-14 16:39:26,602 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, BodyType: byte[], Body: <?xml version='1.0' encoding='UTF-8'?><at.hochbichler.camel.processor.Employee><id>123</id><name>Thomas</name><joinDate>2006</joinDate></at.hochbichler.camel.processor.Employee>]
+2018-09-14 16:39:26,603 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-09-14 16:39:26,603 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 16:39:26,603 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 16:39:26,603 | INFO | CamelTestSupport.java 390 | Testing done: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:39:26,603 | INFO | CamelTestSupport.java 390 | Testing done: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:39:26,604 | INFO | CamelTestSupport.java 391 | Took: 0.043 seconds (43 millis)
+2018-09-14 16:39:26,604 | INFO | CamelTestSupport.java 391 | Took: 0.043 seconds (43 millis)
+2018-09-14 16:39:26,604 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 16:39:26,604 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 16:39:26,606 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-14 16:39:26,607 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 16:39:26,610 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://csvInput
+2018-09-14 16:39:26,611 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 16:39:26,621 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.295 seconds
+2018-09-14 16:39:26,621 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2018-09-14 16:44:47,479 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 16:44:47,479 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 16:44:47,481 | INFO | CamelTestSupport.java 244 | Testing: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:44:47,481 | INFO | CamelTestSupport.java 244 | Testing: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:44:47,481 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 16:44:47,481 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 16:44:47,817 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-14 16:44:47,821 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 16:44:47,859 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 16:44:47,932 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 16:44:48,068 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://csvInput
+2018-09-14 16:44:48,069 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 16:44:48,071 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.252 seconds
+2018-09-14 16:44:48,113 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, BodyType: byte[], Body: <?xml version='1.0' encoding='UTF-8'?><employee><id>123</id><name>Thomas</name><joinDate>2006</joinDate></employee>]
+2018-09-14 16:44:48,114 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-09-14 16:44:48,114 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 16:44:48,114 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 16:44:48,114 | INFO | CamelTestSupport.java 390 | Testing done: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:44:48,114 | INFO | CamelTestSupport.java 390 | Testing done: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:44:48,114 | INFO | CamelTestSupport.java 391 | Took: 0.043 seconds (43 millis)
+2018-09-14 16:44:48,114 | INFO | CamelTestSupport.java 391 | Took: 0.043 seconds (43 millis)
+2018-09-14 16:44:48,114 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 16:44:48,114 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 16:44:48,117 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-14 16:44:48,118 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 16:44:48,122 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://csvInput
+2018-09-14 16:44:48,122 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 16:44:48,131 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.314 seconds
+2018-09-14 16:44:48,131 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.014 seconds
+2018-09-14 16:45:12,676 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 16:45:12,676 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-14 16:45:12,678 | INFO | CamelTestSupport.java 244 | Testing: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:45:12,678 | INFO | CamelTestSupport.java 244 | Testing: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:45:12,679 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 16:45:12,679 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-14 16:45:13,011 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-14 16:45:13,012 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-14 16:45:13,047 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 0)
+2018-09-14 16:45:13,124 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-14 16:45:13,257 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://csvInput
+2018-09-14 16:45:13,258 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-14 16:45:13,260 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.247 seconds
+2018-09-14 16:45:13,304 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, BodyType: byte[], Body: <?xml version='1.0' encoding='UTF-8'?><employee><id>123</id><name>Thomas</name><joinDate>2006</joinDate></employee>]
+2018-09-14 16:45:13,305 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-09-14 16:45:13,305 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 16:45:13,305 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-14 16:45:13,305 | INFO | CamelTestSupport.java 390 | Testing done: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:45:13,305 | INFO | CamelTestSupport.java 390 | Testing done: testXstream(at.hochbichler.camel.xmlxstream.MarshUsingXtreamTest)
+2018-09-14 16:45:13,305 | INFO | CamelTestSupport.java 391 | Took: 0.045 seconds (45 millis)
+2018-09-14 16:45:13,305 | INFO | CamelTestSupport.java 391 | Took: 0.045 seconds (45 millis)
+2018-09-14 16:45:13,305 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 16:45:13,305 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-14 16:45:13,308 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-14 16:45:13,309 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-14 16:45:13,313 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://csvInput
+2018-09-14 16:45:13,313 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-14 16:45:13,325 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.314 seconds
+2018-09-14 16:45:13,325 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.017 seconds
