@@ -1,4 +1,4 @@
-package at.hochbichler.camel.route;
+package at.hochbichler.camel.route.process;
 
 import at.hochbichler.camel.route.process.CamelModifyFileProcessorRoute;
 import org.apache.camel.RoutesBuilder;

@@ -26,3 +26,7 @@ This repo contains the samples according to the Udemy course "Apache Camel for b
 15. Lab: Transform using bean() method
 16. Marshaling/UnMarshaling in Camel using XStream
 17. Marshaling/UnMarshaling XML to Java Object
+18. Transform XML to JSON
+19. Marshaling with Gson
+20. UnMarshaling with Gson
+21. UnMarshaling CSV€

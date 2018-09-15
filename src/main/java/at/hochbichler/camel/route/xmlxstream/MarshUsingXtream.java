@@ -1,4 +1,4 @@
-package at.hochbichler.camel.xmlxstream;
+package at.hochbichler.camel.route.xmlxstream;
 
 import at.hochbichler.camel.processor.CustomProcessorXstream;
 import at.hochbichler.camel.processor.Employee;

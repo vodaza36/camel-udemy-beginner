@@ -1,4 +1,4 @@
-package at.hochbichler.camel.bean;
+package at.hochbichler.camel.route.bean;
 
 public class CamelBean {
     public String map(String input) {

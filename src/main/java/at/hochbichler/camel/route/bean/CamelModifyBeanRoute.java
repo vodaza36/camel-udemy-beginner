@@ -1,6 +1,4 @@
 package at.hochbichler.camel.route.bean;
-
-import at.hochbichler.camel.bean.CamelBean;
 import org.apache.camel.builder.RouteBuilder;
 
 public class CamelModifyBeanRoute extends RouteBuilder {

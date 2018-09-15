@@ -1,11 +1,9 @@
-package at.hochbichler.camel.xmlxstream;
+package at.hochbichler.camel.route.xmlxstream;
 
 import org.apache.camel.RoutesBuilder;
 import org.apache.camel.component.mock.MockEndpoint;
 import org.apache.camel.test.junit4.CamelTestSupport;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class MarshUsingXtreamTest extends CamelTestSupport {
 
