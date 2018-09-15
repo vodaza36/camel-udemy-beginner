@@ -29,4 +29,6 @@ This repo contains the samples according to the Udemy course "Apache Camel for b
 18. Transform XML to JSON
 19. Marshaling with Gson
 20. UnMarshaling with Gson
-21. UnMarshaling CSV€
+21. UnMarshaling CSV
+22. Marshaling CSV
+22. Marshaling CSV with Link

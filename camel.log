@@ -1217,3 +1217,186 @@
 2018-09-14 16:45:13,313 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
 2018-09-14 16:45:13,325 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.314 seconds
 2018-09-14 16:45:13,325 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.017 seconds
+2018-09-15 09:14:31,296 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-15 09:14:31,296 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-15 09:14:31,298 | INFO | CamelTestSupport.java 244 | Testing: marshalCsv(at.hochbichler.camel.route.csv.CSVMarshalRouteTest)
+2018-09-15 09:14:31,298 | INFO | CamelTestSupport.java 244 | Testing: marshalCsv(at.hochbichler.camel.route.csv.CSVMarshalRouteTest)
+2018-09-15 09:14:31,299 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-15 09:14:31,299 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-15 09:14:31,627 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-15 09:14:31,628 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-15 09:14:31,677 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-09-15 09:14:31,774 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-15 09:14:31,780 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://objectInput
+2018-09-15 09:14:31,780 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-15 09:14:31,783 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.154 seconds
+2018-09-15 09:14:31,795 | INFO | CamelLogger.java 159 | Receive: EmployeeCSV{id='1', firstName='Thomas', lastName='Hochbichler'}
+2018-09-15 09:14:31,822 | INFO | CamelLogger.java 159 | After: 1,Thomas,Hochbichler
+
+2018-09-15 09:14:31,845 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-15 09:14:31,845 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-15 09:14:31,845 | INFO | CamelTestSupport.java 390 | Testing done: marshalCsv(at.hochbichler.camel.route.csv.CSVMarshalRouteTest)
+2018-09-15 09:14:31,845 | INFO | CamelTestSupport.java 390 | Testing done: marshalCsv(at.hochbichler.camel.route.csv.CSVMarshalRouteTest)
+2018-09-15 09:14:31,846 | INFO | CamelTestSupport.java 391 | Took: 0.061 seconds (61 millis)
+2018-09-15 09:14:31,846 | INFO | CamelTestSupport.java 391 | Took: 0.061 seconds (61 millis)
+2018-09-15 09:14:31,846 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-15 09:14:31,846 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-15 09:14:31,852 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-15 09:14:31,853 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-15 09:14:31,857 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://objectInput
+2018-09-15 09:14:31,857 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-15 09:14:31,869 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.242 seconds
+2018-09-15 09:14:31,869 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.017 seconds
+2018-09-15 09:16:52,535 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-15 09:16:52,535 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-15 09:16:52,537 | INFO | CamelTestSupport.java 244 | Testing: marshalCsv(at.hochbichler.camel.route.csv.CSVMarshalRouteTest)
+2018-09-15 09:16:52,537 | INFO | CamelTestSupport.java 244 | Testing: marshalCsv(at.hochbichler.camel.route.csv.CSVMarshalRouteTest)
+2018-09-15 09:16:52,537 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-15 09:16:52,537 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-15 09:16:52,902 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-15 09:16:52,903 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-15 09:16:52,945 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-09-15 09:16:53,041 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-15 09:16:53,048 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://objectInput
+2018-09-15 09:16:53,048 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-15 09:16:53,052 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.147 seconds
+2018-09-15 09:16:53,065 | INFO | CamelLogger.java 159 | Receive: [EmployeeCSV{id='1', firstName='Thomas', lastName='Hochbichler'}, EmployeeCSV{id='2', firstName='Marion', lastName='Hochbichler'}]
+2018-09-15 09:16:53,092 | INFO | CamelLogger.java 159 | After: 1,Thomas,Hochbichler
+2,Marion,Hochbichler
+
+2018-09-15 09:16:53,112 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-15 09:16:53,112 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-15 09:16:53,112 | INFO | CamelTestSupport.java 390 | Testing done: marshalCsv(at.hochbichler.camel.route.csv.CSVMarshalRouteTest)
+2018-09-15 09:16:53,112 | INFO | CamelTestSupport.java 390 | Testing done: marshalCsv(at.hochbichler.camel.route.csv.CSVMarshalRouteTest)
+2018-09-15 09:16:53,112 | INFO | CamelTestSupport.java 391 | Took: 0.059 seconds (59 millis)
+2018-09-15 09:16:53,112 | INFO | CamelTestSupport.java 391 | Took: 0.059 seconds (59 millis)
+2018-09-15 09:16:53,112 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-15 09:16:53,112 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-15 09:16:53,119 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-15 09:16:53,119 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-15 09:16:53,124 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://objectInput
+2018-09-15 09:16:53,124 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-15 09:16:53,137 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.235 seconds
+2018-09-15 09:16:53,137 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.018 seconds
+2018-09-15 09:17:46,689 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-15 09:17:46,689 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-15 09:17:46,691 | INFO | CamelTestSupport.java 244 | Testing: marshalCsv(at.hochbichler.camel.route.csv.CSVMarshalRouteTest)
+2018-09-15 09:17:46,691 | INFO | CamelTestSupport.java 244 | Testing: marshalCsv(at.hochbichler.camel.route.csv.CSVMarshalRouteTest)
+2018-09-15 09:17:46,692 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-15 09:17:46,692 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-15 09:17:47,049 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-15 09:17:47,050 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-15 09:17:47,098 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-09-15 09:17:47,192 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-15 09:17:47,198 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://objectInput
+2018-09-15 09:17:47,198 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-15 09:17:47,201 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.149 seconds
+2018-09-15 09:17:47,213 | INFO | CamelLogger.java 159 | Receive: [EmployeeCSV{id='1', firstName='Thomas', lastName='Hochbichler'}, EmployeeCSV{id='2', firstName='Marion', lastName='Hochbichler'}]
+2018-09-15 09:17:47,239 | INFO | CamelLogger.java 159 | After: id,firstName,lastName
+1,Thomas,Hochbichler
+2,Marion,Hochbichler
+
+2018-09-15 09:17:47,260 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-15 09:17:47,260 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-15 09:17:47,260 | INFO | CamelTestSupport.java 390 | Testing done: marshalCsv(at.hochbichler.camel.route.csv.CSVMarshalRouteTest)
+2018-09-15 09:17:47,260 | INFO | CamelTestSupport.java 390 | Testing done: marshalCsv(at.hochbichler.camel.route.csv.CSVMarshalRouteTest)
+2018-09-15 09:17:47,260 | INFO | CamelTestSupport.java 391 | Took: 0.058 seconds (58 millis)
+2018-09-15 09:17:47,260 | INFO | CamelTestSupport.java 391 | Took: 0.058 seconds (58 millis)
+2018-09-15 09:17:47,261 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-15 09:17:47,261 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-15 09:17:47,267 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-15 09:17:47,267 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-15 09:17:47,271 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://objectInput
+2018-09-15 09:17:47,271 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-15 09:17:47,282 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.233 seconds
+2018-09-15 09:17:47,282 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2018-09-15 09:35:46,583 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-15 09:35:46,583 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-15 09:35:46,586 | INFO | CamelTestSupport.java 244 | Testing: unmarshal(at.hochbichler.camel.route.csv.CSVUnmarhalWithLinkRouteTest)
+2018-09-15 09:35:46,586 | INFO | CamelTestSupport.java 244 | Testing: unmarshal(at.hochbichler.camel.route.csv.CSVUnmarhalWithLinkRouteTest)
+2018-09-15 09:35:46,586 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-15 09:35:46,586 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-15 09:35:46,921 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-15 09:35:46,922 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-15 09:35:46,964 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-09-15 09:35:47,046 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-15 09:35:47,051 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2018-09-15 09:35:47,052 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2018-09-15 09:35:47,063 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://data/csv/input?fileName=file-with-address.txt&noop=true
+2018-09-15 09:35:47,063 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-15 09:35:47,066 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.143 seconds
+2018-09-15 09:35:48,108 | INFO | CamelLogger.java 159 | Unmarshaled: EmployeeCSVWithAddress{id='1', firstName='Thomas', lastName='Hochbichler', addressCSV=AddressCSV{addressLine='Musterstr. 10', city='Wien', state='Wien', zip='1020', country='Austria'}}
+2018-09-15 09:35:48,110 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-15 09:35:48,110 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-15 09:35:48,110 | INFO | CamelTestSupport.java 390 | Testing done: unmarshal(at.hochbichler.camel.route.csv.CSVUnmarhalWithLinkRouteTest)
+2018-09-15 09:35:48,110 | INFO | CamelTestSupport.java 390 | Testing done: unmarshal(at.hochbichler.camel.route.csv.CSVUnmarhalWithLinkRouteTest)
+2018-09-15 09:35:48,111 | INFO | CamelTestSupport.java 391 | Took: 1.044 seconds (1044 millis)
+2018-09-15 09:35:48,111 | INFO | CamelTestSupport.java 391 | Took: 1.044 seconds (1044 millis)
+2018-09-15 09:35:48,111 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-15 09:35:48,111 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-15 09:35:48,114 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-15 09:35:48,115 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-15 09:35:48,118 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://data/csv/input?fileName=file-with-address.txt&noop=true
+2018-09-15 09:35:48,118 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-15 09:35:48,128 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 1.208 seconds
+2018-09-15 09:35:48,129 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2018-09-15 09:37:05,264 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-15 09:37:05,264 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-15 09:37:05,266 | INFO | CamelTestSupport.java 244 | Testing: unmarshal(at.hochbichler.camel.route.csv.CSVUnmarhalWithLinkRouteTest)
+2018-09-15 09:37:05,266 | INFO | CamelTestSupport.java 244 | Testing: unmarshal(at.hochbichler.camel.route.csv.CSVUnmarhalWithLinkRouteTest)
+2018-09-15 09:37:05,267 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-15 09:37:05,267 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-15 09:37:05,604 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-15 09:37:05,605 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-15 09:37:05,645 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-09-15 09:37:05,727 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-15 09:37:05,731 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2018-09-15 09:37:05,731 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2018-09-15 09:37:05,741 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://data/csv/input?fileName=file-with-address.txt&noop=true
+2018-09-15 09:37:05,742 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-15 09:37:05,745 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.138 seconds
+2018-09-15 09:37:06,792 | INFO | CamelLogger.java 159 | Unmarshaled: EmployeeCSVWithAddress{id='1', firstName='Thomas', lastName='Hochbichler', addressCSV=AddressCSV{addressLine='Musterstr. 10', city='Wien', state='Wien', zip='1020', country='Austria'}}
+2018-09-15 09:37:11,795 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-15 09:37:11,795 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-15 09:37:11,796 | INFO | CamelTestSupport.java 390 | Testing done: unmarshal(at.hochbichler.camel.route.csv.CSVUnmarhalWithLinkRouteTest)
+2018-09-15 09:37:11,796 | INFO | CamelTestSupport.java 390 | Testing done: unmarshal(at.hochbichler.camel.route.csv.CSVUnmarhalWithLinkRouteTest)
+2018-09-15 09:37:11,796 | INFO | CamelTestSupport.java 391 | Took: 6.050 seconds (6050 millis)
+2018-09-15 09:37:11,796 | INFO | CamelTestSupport.java 391 | Took: 6.050 seconds (6050 millis)
+2018-09-15 09:37:11,798 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-15 09:37:11,798 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-15 09:37:11,801 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-15 09:37:11,802 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-15 09:37:11,804 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://data/csv/input?fileName=file-with-address.txt&noop=true
+2018-09-15 09:37:11,805 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-15 09:37:11,818 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 6.213 seconds
+2018-09-15 09:37:11,818 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.017 seconds
+2018-09-15 09:37:18,979 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-15 09:37:18,979 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-15 09:37:18,984 | INFO | CamelTestSupport.java 244 | Testing: unmarshal(at.hochbichler.camel.route.csv.CSVUnmarhalWithLinkRouteTest)
+2018-09-15 09:37:18,984 | INFO | CamelTestSupport.java 244 | Testing: unmarshal(at.hochbichler.camel.route.csv.CSVUnmarhalWithLinkRouteTest)
+2018-09-15 09:37:18,984 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-15 09:37:18,984 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-15 09:37:19,442 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-15 09:37:19,444 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-15 09:37:19,485 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-09-15 09:37:19,575 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-15 09:37:19,579 | INFO | FileEndpoint.java 104 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2018-09-15 09:37:19,580 | INFO | FileEndpoint.java 110 | Using default memory based idempotent repository with cache max size: 1000
+2018-09-15 09:37:19,615 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: file://data/csv/input?fileName=file-with-address.txt&noop=true
+2018-09-15 09:37:19,615 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-15 09:37:19,619 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.173 seconds
+2018-09-15 09:37:20,669 | INFO | CamelLogger.java 159 | Unmarshaled: EmployeeCSVWithAddress{id='1', firstName='Thomas', lastName='Hochbichler', addressCSV=AddressCSV{addressLine='Musterstr. 10', city='Wien', state='Wien', zip='1020', country='Austria'}}
+2018-09-15 09:37:34,870 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-15 09:37:34,870 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-15 09:37:34,872 | INFO | CamelTestSupport.java 390 | Testing done: unmarshal(at.hochbichler.camel.route.csv.CSVUnmarhalWithLinkRouteTest)
+2018-09-15 09:37:34,872 | INFO | CamelTestSupport.java 390 | Testing done: unmarshal(at.hochbichler.camel.route.csv.CSVUnmarhalWithLinkRouteTest)
+2018-09-15 09:37:34,873 | INFO | CamelTestSupport.java 391 | Took: 15.251 seconds (15251 millis)
+2018-09-15 09:37:34,873 | INFO | CamelTestSupport.java 391 | Took: 15.251 seconds (15251 millis)
+2018-09-15 09:37:34,875 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-15 09:37:34,875 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-15 09:37:34,880 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-15 09:37:34,881 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-15 09:37:34,885 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: file://data/csv/input?fileName=file-with-address.txt&noop=true
+2018-09-15 09:37:34,886 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-15 09:37:34,898 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 15.455 seconds
+2018-09-15 09:37:34,898 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.018 seconds
