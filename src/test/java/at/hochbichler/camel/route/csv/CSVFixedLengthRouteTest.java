@@ -6,6 +6,7 @@ import org.apache.camel.RoutesBuilder;
 import org.apache.camel.test.junit4.CamelTestSupport;
 import org.junit.Test;
 
+import java.time.LocalDate;
 import java.util.List;
 
 import static org.junit.Assert.*;
@@ -23,5 +24,8 @@ public class CSVFixedLengthRouteTest extends CamelTestSupport {
 
         assertEquals("Thomas", emps.get(0).getFirstname());
         assertEquals("Julia", emps.get(1).getFirstname());
+
+        LocalDate expectedDate = LocalDate.of(2010,02,21);
+        assertEquals(expectedDate.getYear(), emps.get(0).getJoinDate().getYear());
     }
 }
