@@ -31,4 +31,5 @@ This repo contains the samples according to the Udemy course "Apache Camel for b
 20. UnMarshaling with Gson
 21. UnMarshaling CSV
 22. Marshaling CSV
-22. Marshaling CSV with Link
+23. Marshaling CSV with Link
+24. Unmarshal fixed length file
