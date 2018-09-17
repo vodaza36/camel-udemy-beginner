@@ -4719,3 +4719,692 @@ Caused by: java.time.format.DateTimeParseException: Text '20Jan2006' could not b
 	at org.apache.camel.dataformat.bindy.BindyFixedLengthFactory.bind(BindyFixedLengthFactory.java:274)
 	... 20 more
 2018-09-15 10:14:35,392 | WARN | GenericFileOnCompletion.java 144 | Rollback file strategy: org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy@5d5b0a22 for file: GenericFile[fixedlength.txt]
+2018-09-17 17:59:12,655 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-17 17:59:12,655 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-17 17:59:12,659 | INFO | CamelTestSupport.java 244 | Testing: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 17:59:12,659 | INFO | CamelTestSupport.java 244 | Testing: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 17:59:12,659 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-17 17:59:12,659 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-17 17:59:13,081 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-17 17:59:13,082 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-17 17:59:13,133 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-09-17 17:59:13,225 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-17 17:59:13,232 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://exception
+2018-09-17 17:59:13,233 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-17 17:59:13,236 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.153 seconds
+2018-09-17 17:59:13,255 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-17 17:59:13,255 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-17 17:59:13,255 | INFO | CamelTestSupport.java 390 | Testing done: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 17:59:13,255 | INFO | CamelTestSupport.java 390 | Testing done: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 17:59:13,255 | INFO | CamelTestSupport.java 391 | Took: 0.018 seconds (18 millis)
+2018-09-17 17:59:13,255 | INFO | CamelTestSupport.java 391 | Took: 0.018 seconds (18 millis)
+2018-09-17 17:59:13,256 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-17 17:59:13,256 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-17 17:59:13,259 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-17 17:59:13,260 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-17 17:59:13,265 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://exception
+2018-09-17 17:59:13,265 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-17 17:59:13,279 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.198 seconds
+2018-09-17 17:59:13,279 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.020 seconds
+2018-09-17 18:00:26,914 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-17 18:00:26,914 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-17 18:00:26,917 | INFO | CamelTestSupport.java 244 | Testing: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:00:26,917 | INFO | CamelTestSupport.java 244 | Testing: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:00:26,917 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-17 18:00:26,917 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-17 18:00:27,248 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-17 18:00:27,249 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-17 18:00:27,289 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-09-17 18:00:27,371 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-17 18:00:27,377 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://exception
+2018-09-17 18:00:27,377 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-17 18:00:27,380 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.129 seconds
+2018-09-17 18:00:27,400 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-thomass-mbp-at-softlab-net-1537200026958-0-2 on ExchangeId: ID-thomass-mbp-at-softlab-net-1537200026958-0-1). Exhausted after delivery attempt: 1 caught: java.lang.NullPointerException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [direct://exception                                                            ] [        11]
+[route1            ] [bean1             ] [bean[at.hochbichler.camel.bean.DataModifier@f5ac9e4]                          ] [         7]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.NullPointerException
+	at at.hochbichler.camel.bean.DataModifier.map(DataModifier.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.camel.component.bean.MethodInfo.invoke(MethodInfo.java:478)
+	at org.apache.camel.component.bean.MethodInfo$1.doProceed(MethodInfo.java:297)
+	at org.apache.camel.component.bean.MethodInfo$1.proceed(MethodInfo.java:270)
+	at org.apache.camel.component.bean.AbstractBeanProcessor.process(AbstractBeanProcessor.java:187)
+	at org.apache.camel.component.bean.BeanProcessor.process(BeanProcessor.java:53)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.direct.DirectProducer.process(DirectProducer.java:62)
+	at org.apache.camel.processor.SharedCamelInternalProcessor.process(SharedCamelInternalProcessor.java:186)
+	at org.apache.camel.processor.SharedCamelInternalProcessor.process(SharedCamelInternalProcessor.java:86)
+	at org.apache.camel.impl.ProducerCache$1.doInProducer(ProducerCache.java:541)
+	at org.apache.camel.impl.ProducerCache$1.doInProducer(ProducerCache.java:506)
+	at org.apache.camel.impl.ProducerCache.doInProducer(ProducerCache.java:369)
+	at org.apache.camel.impl.ProducerCache.sendExchange(ProducerCache.java:506)
+	at org.apache.camel.impl.ProducerCache.send(ProducerCache.java:264)
+	at org.apache.camel.impl.DefaultProducerTemplate.requestBody(DefaultProducerTemplate.java:337)
+	at at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest.exceptionCheck(DefaultErrorHandlerRouteTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-09-17 18:00:27,405 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-17 18:00:27,405 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-17 18:00:27,405 | INFO | CamelTestSupport.java 390 | Testing done: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:00:27,405 | INFO | CamelTestSupport.java 390 | Testing done: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:00:27,405 | INFO | CamelTestSupport.java 391 | Took: 0.024 seconds (24 millis)
+2018-09-17 18:00:27,405 | INFO | CamelTestSupport.java 391 | Took: 0.024 seconds (24 millis)
+2018-09-17 18:00:27,406 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-17 18:00:27,406 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-17 18:00:27,411 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-17 18:00:27,413 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-17 18:00:27,416 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://exception
+2018-09-17 18:00:27,417 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-17 18:00:27,429 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.181 seconds
+2018-09-17 18:00:27,429 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.018 seconds
+2018-09-17 18:01:22,801 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-17 18:01:22,801 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-17 18:01:22,804 | INFO | CamelTestSupport.java 244 | Testing: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:01:22,804 | INFO | CamelTestSupport.java 244 | Testing: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:01:22,804 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-17 18:01:22,804 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-17 18:01:23,125 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-17 18:01:23,126 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-17 18:01:23,170 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-09-17 18:01:23,260 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-17 18:01:23,267 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://exception
+2018-09-17 18:01:23,267 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-17 18:01:23,270 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.143 seconds
+2018-09-17 18:01:23,287 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-thomass-mbp-at-softlab-net-1537200082845-0-2 on ExchangeId: ID-thomass-mbp-at-softlab-net-1537200082845-0-1). Exhausted after delivery attempt: 1 caught: java.lang.NullPointerException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [direct://exception                                                            ] [         9]
+[route1            ] [bean1             ] [bean[at.hochbichler.camel.bean.DataModifier@6eda5c9]                          ] [         6]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.NullPointerException
+	at at.hochbichler.camel.bean.DataModifier.map(DataModifier.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.camel.component.bean.MethodInfo.invoke(MethodInfo.java:478)
+	at org.apache.camel.component.bean.MethodInfo$1.doProceed(MethodInfo.java:297)
+	at org.apache.camel.component.bean.MethodInfo$1.proceed(MethodInfo.java:270)
+	at org.apache.camel.component.bean.AbstractBeanProcessor.process(AbstractBeanProcessor.java:187)
+	at org.apache.camel.component.bean.BeanProcessor.process(BeanProcessor.java:53)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.direct.DirectProducer.process(DirectProducer.java:62)
+	at org.apache.camel.processor.SharedCamelInternalProcessor.process(SharedCamelInternalProcessor.java:186)
+	at org.apache.camel.processor.SharedCamelInternalProcessor.process(SharedCamelInternalProcessor.java:86)
+	at org.apache.camel.impl.ProducerCache$1.doInProducer(ProducerCache.java:541)
+	at org.apache.camel.impl.ProducerCache$1.doInProducer(ProducerCache.java:506)
+	at org.apache.camel.impl.ProducerCache.doInProducer(ProducerCache.java:369)
+	at org.apache.camel.impl.ProducerCache.sendExchange(ProducerCache.java:506)
+	at org.apache.camel.impl.ProducerCache.send(ProducerCache.java:264)
+	at org.apache.camel.impl.DefaultProducerTemplate.requestBody(DefaultProducerTemplate.java:337)
+	at at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest.exceptionCheck(DefaultErrorHandlerRouteTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-09-17 18:01:23,292 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-17 18:01:23,292 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-17 18:01:23,292 | INFO | CamelTestSupport.java 390 | Testing done: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:01:23,292 | INFO | CamelTestSupport.java 390 | Testing done: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:01:23,293 | INFO | CamelTestSupport.java 391 | Took: 0.021 seconds (21 millis)
+2018-09-17 18:01:23,293 | INFO | CamelTestSupport.java 391 | Took: 0.021 seconds (21 millis)
+2018-09-17 18:01:23,293 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-17 18:01:23,293 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-17 18:01:23,300 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-17 18:01:23,302 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-17 18:01:23,306 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://exception
+2018-09-17 18:01:23,306 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-17 18:01:23,317 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.192 seconds
+2018-09-17 18:01:23,318 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.018 seconds
+2018-09-17 18:01:56,372 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-17 18:01:56,372 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-17 18:01:56,374 | INFO | CamelTestSupport.java 244 | Testing: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:01:56,374 | INFO | CamelTestSupport.java 244 | Testing: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:01:56,375 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-17 18:01:56,375 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-17 18:01:56,698 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-17 18:01:56,699 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-17 18:01:56,741 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-09-17 18:01:56,826 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-17 18:01:56,832 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://exception
+2018-09-17 18:01:56,832 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-17 18:01:56,836 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.136 seconds
+2018-09-17 18:01:56,855 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-thomass-mbp-at-softlab-net-1537200116416-0-2 on ExchangeId: ID-thomass-mbp-at-softlab-net-1537200116416-0-1). Exhausted after delivery attempt: 1 caught: java.lang.NullPointerException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [direct://exception                                                            ] [        11]
+[route1            ] [bean1             ] [bean[at.hochbichler.camel.bean.DataModifier@20deea7f]                         ] [         7]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.NullPointerException
+	at at.hochbichler.camel.bean.DataModifier.map(DataModifier.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.camel.component.bean.MethodInfo.invoke(MethodInfo.java:478)
+	at org.apache.camel.component.bean.MethodInfo$1.doProceed(MethodInfo.java:297)
+	at org.apache.camel.component.bean.MethodInfo$1.proceed(MethodInfo.java:270)
+	at org.apache.camel.component.bean.AbstractBeanProcessor.process(AbstractBeanProcessor.java:187)
+	at org.apache.camel.component.bean.BeanProcessor.process(BeanProcessor.java:53)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.direct.DirectProducer.process(DirectProducer.java:62)
+	at org.apache.camel.processor.SharedCamelInternalProcessor.process(SharedCamelInternalProcessor.java:186)
+	at org.apache.camel.processor.SharedCamelInternalProcessor.process(SharedCamelInternalProcessor.java:86)
+	at org.apache.camel.impl.ProducerCache$1.doInProducer(ProducerCache.java:541)
+	at org.apache.camel.impl.ProducerCache$1.doInProducer(ProducerCache.java:506)
+	at org.apache.camel.impl.ProducerCache.doInProducer(ProducerCache.java:369)
+	at org.apache.camel.impl.ProducerCache.sendExchange(ProducerCache.java:506)
+	at org.apache.camel.impl.ProducerCache.send(ProducerCache.java:264)
+	at org.apache.camel.impl.DefaultProducerTemplate.requestBody(DefaultProducerTemplate.java:337)
+	at at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest.exceptionCheck(DefaultErrorHandlerRouteTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-09-17 18:01:56,860 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-17 18:01:56,860 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-17 18:01:56,860 | INFO | CamelTestSupport.java 390 | Testing done: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:01:56,860 | INFO | CamelTestSupport.java 390 | Testing done: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:01:56,861 | INFO | CamelTestSupport.java 391 | Took: 0.024 seconds (24 millis)
+2018-09-17 18:01:56,861 | INFO | CamelTestSupport.java 391 | Took: 0.024 seconds (24 millis)
+2018-09-17 18:01:56,861 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-17 18:01:56,861 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-17 18:01:56,867 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-17 18:01:56,869 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-17 18:01:56,873 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://exception
+2018-09-17 18:01:56,874 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-17 18:01:56,886 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.189 seconds
+2018-09-17 18:01:56,886 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.019 seconds
+2018-09-17 18:03:02,607 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-17 18:03:02,607 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-17 18:03:02,609 | INFO | CamelTestSupport.java 244 | Testing: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:03:02,609 | INFO | CamelTestSupport.java 244 | Testing: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:03:02,609 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-17 18:03:02,609 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-17 18:03:02,944 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-17 18:03:02,945 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-17 18:03:02,985 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-09-17 18:03:03,069 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-17 18:03:03,076 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://exception
+2018-09-17 18:03:03,077 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-17 18:03:03,080 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.133 seconds
+2018-09-17 18:03:03,096 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-thomass-mbp-at-softlab-net-1537200182655-0-2 on ExchangeId: ID-thomass-mbp-at-softlab-net-1537200182655-0-1). Exhausted after delivery attempt: 1 caught: java.lang.NullPointerException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [direct://exception                                                            ] [         8]
+[route1            ] [bean1             ] [bean[at.hochbichler.camel.bean.DataModifier@185a6e9]                          ] [         6]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.NullPointerException
+	at at.hochbichler.camel.bean.DataModifier.map(DataModifier.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.camel.component.bean.MethodInfo.invoke(MethodInfo.java:478)
+	at org.apache.camel.component.bean.MethodInfo$1.doProceed(MethodInfo.java:297)
+	at org.apache.camel.component.bean.MethodInfo$1.proceed(MethodInfo.java:270)
+	at org.apache.camel.component.bean.AbstractBeanProcessor.process(AbstractBeanProcessor.java:187)
+	at org.apache.camel.component.bean.BeanProcessor.process(BeanProcessor.java:53)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.direct.DirectProducer.process(DirectProducer.java:62)
+	at org.apache.camel.processor.SharedCamelInternalProcessor.process(SharedCamelInternalProcessor.java:186)
+	at org.apache.camel.processor.SharedCamelInternalProcessor.process(SharedCamelInternalProcessor.java:86)
+	at org.apache.camel.impl.ProducerCache$1.doInProducer(ProducerCache.java:541)
+	at org.apache.camel.impl.ProducerCache$1.doInProducer(ProducerCache.java:506)
+	at org.apache.camel.impl.ProducerCache.doInProducer(ProducerCache.java:369)
+	at org.apache.camel.impl.ProducerCache.sendExchange(ProducerCache.java:506)
+	at org.apache.camel.impl.ProducerCache.send(ProducerCache.java:264)
+	at org.apache.camel.impl.DefaultProducerTemplate.requestBody(DefaultProducerTemplate.java:337)
+	at at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest.exceptionCheck(DefaultErrorHandlerRouteTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-09-17 18:03:03,100 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-17 18:03:03,100 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-17 18:03:03,100 | INFO | CamelTestSupport.java 390 | Testing done: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:03:03,100 | INFO | CamelTestSupport.java 390 | Testing done: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:03:03,100 | INFO | CamelTestSupport.java 391 | Took: 0.019 seconds (19 millis)
+2018-09-17 18:03:03,100 | INFO | CamelTestSupport.java 391 | Took: 0.019 seconds (19 millis)
+2018-09-17 18:03:03,100 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-17 18:03:03,100 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-17 18:03:03,106 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-17 18:03:03,107 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-17 18:03:03,112 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://exception
+2018-09-17 18:03:03,112 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-17 18:03:03,126 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 0.182 seconds
+2018-09-17 18:03:03,127 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.021 seconds
+2018-09-17 18:06:32,016 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-17 18:06:32,016 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-17 18:06:32,018 | INFO | CamelTestSupport.java 244 | Testing: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:06:32,018 | INFO | CamelTestSupport.java 244 | Testing: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:06:32,019 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-17 18:06:32,019 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-17 18:06:32,349 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-17 18:06:32,350 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-17 18:06:32,389 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-09-17 18:06:32,472 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-17 18:06:32,482 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://exception
+2018-09-17 18:06:32,483 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-17 18:06:32,487 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.134 seconds
+2018-09-17 18:06:32,504 | WARN | CamelLogger.java 165 | Failed delivery for (MessageId: ID-thomass-mbp-at-softlab-net-1537200392062-0-2 on ExchangeId: ID-thomass-mbp-at-softlab-net-1537200392062-0-1). On delivery attempt: 0 caught: java.lang.NullPointerException
+2018-09-17 18:06:35,513 | WARN | CamelLogger.java 165 | Failed delivery for (MessageId: ID-thomass-mbp-at-softlab-net-1537200392062-0-2 on ExchangeId: ID-thomass-mbp-at-softlab-net-1537200392062-0-1). On delivery attempt: 1 caught: java.lang.NullPointerException
+2018-09-17 18:06:38,518 | WARN | CamelLogger.java 165 | Failed delivery for (MessageId: ID-thomass-mbp-at-softlab-net-1537200392062-0-2 on ExchangeId: ID-thomass-mbp-at-softlab-net-1537200392062-0-1). On delivery attempt: 2 caught: java.lang.NullPointerException
+2018-09-17 18:06:38,521 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-thomass-mbp-at-softlab-net-1537200392062-0-2 on ExchangeId: ID-thomass-mbp-at-softlab-net-1537200392062-0-1). Exhausted after delivery attempt: 3 caught: java.lang.NullPointerException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [direct://exception                                                            ] [      6024]
+[route1            ] [bean1             ] [bean[at.hochbichler.camel.bean.DataModifier@123ef382]                         ] [      6022]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.NullPointerException
+	at at.hochbichler.camel.bean.DataModifier.map(DataModifier.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.camel.component.bean.MethodInfo.invoke(MethodInfo.java:478)
+	at org.apache.camel.component.bean.MethodInfo$1.doProceed(MethodInfo.java:297)
+	at org.apache.camel.component.bean.MethodInfo$1.proceed(MethodInfo.java:270)
+	at org.apache.camel.component.bean.AbstractBeanProcessor.process(AbstractBeanProcessor.java:187)
+	at org.apache.camel.component.bean.BeanProcessor.process(BeanProcessor.java:53)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.direct.DirectProducer.process(DirectProducer.java:62)
+	at org.apache.camel.processor.SharedCamelInternalProcessor.process(SharedCamelInternalProcessor.java:186)
+	at org.apache.camel.processor.SharedCamelInternalProcessor.process(SharedCamelInternalProcessor.java:86)
+	at org.apache.camel.impl.ProducerCache$1.doInProducer(ProducerCache.java:541)
+	at org.apache.camel.impl.ProducerCache$1.doInProducer(ProducerCache.java:506)
+	at org.apache.camel.impl.ProducerCache.doInProducer(ProducerCache.java:369)
+	at org.apache.camel.impl.ProducerCache.sendExchange(ProducerCache.java:506)
+	at org.apache.camel.impl.ProducerCache.send(ProducerCache.java:264)
+	at org.apache.camel.impl.DefaultProducerTemplate.requestBody(DefaultProducerTemplate.java:337)
+	at at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest.exceptionCheck(DefaultErrorHandlerRouteTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+	Suppressed: java.lang.NullPointerException
+		... 54 more
+		Suppressed: java.lang.NullPointerException
+			... 54 more
+2018-09-17 18:06:38,527 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-17 18:06:38,527 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-17 18:06:38,527 | INFO | CamelTestSupport.java 390 | Testing done: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:06:38,527 | INFO | CamelTestSupport.java 390 | Testing done: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:06:38,528 | INFO | CamelTestSupport.java 391 | Took: 6.039 seconds (6039 millis)
+2018-09-17 18:06:38,528 | INFO | CamelTestSupport.java 391 | Took: 6.039 seconds (6039 millis)
+2018-09-17 18:06:38,529 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-17 18:06:38,529 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-17 18:06:38,536 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-17 18:06:38,536 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-17 18:06:38,539 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://exception
+2018-09-17 18:06:38,540 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-17 18:06:38,551 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 6.201 seconds
+2018-09-17 18:06:38,551 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2018-09-17 18:09:05,847 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-17 18:09:05,847 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-17 18:09:05,850 | INFO | CamelTestSupport.java 244 | Testing: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:09:05,850 | INFO | CamelTestSupport.java 244 | Testing: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:09:05,850 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-17 18:09:05,850 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-17 18:09:06,180 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-17 18:09:06,181 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-17 18:09:06,220 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-09-17 18:09:06,314 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-17 18:09:06,324 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://exception
+2018-09-17 18:09:06,324 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-17 18:09:06,327 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.145 seconds
+2018-09-17 18:09:06,343 | WARN | CamelLogger.java 165 | Failed delivery for (MessageId: ID-thomass-mbp-at-softlab-net-1537200545893-0-2 on ExchangeId: ID-thomass-mbp-at-softlab-net-1537200545893-0-1). On delivery attempt: 0 caught: java.lang.NullPointerException
+2018-09-17 18:09:09,352 | WARN | CamelLogger.java 165 | Failed delivery for (MessageId: ID-thomass-mbp-at-softlab-net-1537200545893-0-2 on ExchangeId: ID-thomass-mbp-at-softlab-net-1537200545893-0-1). On delivery attempt: 1 caught: java.lang.NullPointerException
+2018-09-17 18:09:15,357 | WARN | CamelLogger.java 165 | Failed delivery for (MessageId: ID-thomass-mbp-at-softlab-net-1537200545893-0-2 on ExchangeId: ID-thomass-mbp-at-softlab-net-1537200545893-0-1). On delivery attempt: 2 caught: java.lang.NullPointerException
+2018-09-17 18:09:15,359 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-thomass-mbp-at-softlab-net-1537200545893-0-2 on ExchangeId: ID-thomass-mbp-at-softlab-net-1537200545893-0-1). Exhausted after delivery attempt: 3 caught: java.lang.NullPointerException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [direct://exception                                                            ] [      9023]
+[route1            ] [bean1             ] [bean[at.hochbichler.camel.bean.DataModifier@179ece50]                         ] [      9021]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.NullPointerException
+	at at.hochbichler.camel.bean.DataModifier.map(DataModifier.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.camel.component.bean.MethodInfo.invoke(MethodInfo.java:478)
+	at org.apache.camel.component.bean.MethodInfo$1.doProceed(MethodInfo.java:297)
+	at org.apache.camel.component.bean.MethodInfo$1.proceed(MethodInfo.java:270)
+	at org.apache.camel.component.bean.AbstractBeanProcessor.process(AbstractBeanProcessor.java:187)
+	at org.apache.camel.component.bean.BeanProcessor.process(BeanProcessor.java:53)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.direct.DirectProducer.process(DirectProducer.java:62)
+	at org.apache.camel.processor.SharedCamelInternalProcessor.process(SharedCamelInternalProcessor.java:186)
+	at org.apache.camel.processor.SharedCamelInternalProcessor.process(SharedCamelInternalProcessor.java:86)
+	at org.apache.camel.impl.ProducerCache$1.doInProducer(ProducerCache.java:541)
+	at org.apache.camel.impl.ProducerCache$1.doInProducer(ProducerCache.java:506)
+	at org.apache.camel.impl.ProducerCache.doInProducer(ProducerCache.java:369)
+	at org.apache.camel.impl.ProducerCache.sendExchange(ProducerCache.java:506)
+	at org.apache.camel.impl.ProducerCache.send(ProducerCache.java:264)
+	at org.apache.camel.impl.DefaultProducerTemplate.requestBody(DefaultProducerTemplate.java:337)
+	at at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest.exceptionCheck(DefaultErrorHandlerRouteTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+	Suppressed: java.lang.NullPointerException
+		... 54 more
+		Suppressed: java.lang.NullPointerException
+			... 54 more
+2018-09-17 18:09:15,364 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-17 18:09:15,364 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-17 18:09:15,364 | INFO | CamelTestSupport.java 390 | Testing done: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:09:15,364 | INFO | CamelTestSupport.java 390 | Testing done: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:09:15,365 | INFO | CamelTestSupport.java 391 | Took: 9.036 seconds (9036 millis)
+2018-09-17 18:09:15,365 | INFO | CamelTestSupport.java 391 | Took: 9.036 seconds (9036 millis)
+2018-09-17 18:09:15,366 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-17 18:09:15,366 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-17 18:09:15,371 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-17 18:09:15,371 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-17 18:09:15,374 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://exception
+2018-09-17 18:09:15,374 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-17 18:09:15,385 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 9.206 seconds
+2018-09-17 18:09:15,385 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.014 seconds
+2018-09-17 18:10:14,656 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-17 18:10:14,656 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-17 18:10:14,659 | INFO | CamelTestSupport.java 244 | Testing: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:10:14,659 | INFO | CamelTestSupport.java 244 | Testing: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:10:14,659 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-17 18:10:14,659 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-17 18:10:15,006 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-17 18:10:15,007 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-17 18:10:15,051 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-09-17 18:10:15,132 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-17 18:10:15,144 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://exception
+2018-09-17 18:10:15,144 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-17 18:10:15,147 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.138 seconds
+2018-09-17 18:10:15,164 | WARN | CamelLogger.java 165 | Failed delivery for (MessageId: ID-thomass-mbp-at-softlab-net-1537200614706-0-2 on ExchangeId: ID-thomass-mbp-at-softlab-net-1537200614706-0-1). On delivery attempt: 0 caught: java.lang.NullPointerException
+2018-09-17 18:10:18,166 | WARN | CamelLogger.java 165 | Failed delivery for (MessageId: ID-thomass-mbp-at-softlab-net-1537200614706-0-2 on ExchangeId: ID-thomass-mbp-at-softlab-net-1537200614706-0-1). On delivery attempt: 1 caught: java.lang.NullPointerException
+2018-09-17 18:10:24,171 | WARN | CamelLogger.java 165 | Failed delivery for (MessageId: ID-thomass-mbp-at-softlab-net-1537200614706-0-2 on ExchangeId: ID-thomass-mbp-at-softlab-net-1537200614706-0-1). On delivery attempt: 2 caught: java.lang.NullPointerException
+2018-09-17 18:10:24,173 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-thomass-mbp-at-softlab-net-1537200614706-0-2 on ExchangeId: ID-thomass-mbp-at-softlab-net-1537200614706-0-1). Exhausted after delivery attempt: 3 caught: java.lang.NullPointerException
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [direct://exception                                                            ] [      9017]
+[route1            ] [bean1             ] [bean[at.hochbichler.camel.bean.DataModifier@f5ac9e4]                          ] [      9015]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.NullPointerException
+	at at.hochbichler.camel.bean.DataModifier.map(DataModifier.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.camel.component.bean.MethodInfo.invoke(MethodInfo.java:478)
+	at org.apache.camel.component.bean.MethodInfo$1.doProceed(MethodInfo.java:297)
+	at org.apache.camel.component.bean.MethodInfo$1.proceed(MethodInfo.java:270)
+	at org.apache.camel.component.bean.AbstractBeanProcessor.process(AbstractBeanProcessor.java:187)
+	at org.apache.camel.component.bean.BeanProcessor.process(BeanProcessor.java:53)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:548)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:138)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:101)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:201)
+	at org.apache.camel.component.direct.DirectProducer.process(DirectProducer.java:62)
+	at org.apache.camel.processor.SharedCamelInternalProcessor.process(SharedCamelInternalProcessor.java:186)
+	at org.apache.camel.processor.SharedCamelInternalProcessor.process(SharedCamelInternalProcessor.java:86)
+	at org.apache.camel.impl.ProducerCache$1.doInProducer(ProducerCache.java:541)
+	at org.apache.camel.impl.ProducerCache$1.doInProducer(ProducerCache.java:506)
+	at org.apache.camel.impl.ProducerCache.doInProducer(ProducerCache.java:369)
+	at org.apache.camel.impl.ProducerCache.sendExchange(ProducerCache.java:506)
+	at org.apache.camel.impl.ProducerCache.send(ProducerCache.java:264)
+	at org.apache.camel.impl.DefaultProducerTemplate.requestBody(DefaultProducerTemplate.java:337)
+	at at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest.exceptionCheck(DefaultErrorHandlerRouteTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+	Suppressed: java.lang.NullPointerException
+		... 54 more
+		Suppressed: java.lang.NullPointerException
+			... 54 more
+2018-09-17 18:10:24,177 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-17 18:10:24,177 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-17 18:10:24,178 | INFO | CamelTestSupport.java 390 | Testing done: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:10:24,178 | INFO | CamelTestSupport.java 390 | Testing done: exceptionCheck(at.hochbichler.camel.defaulterrorhandler.DefaultErrorHandlerRouteTest)
+2018-09-17 18:10:24,179 | INFO | CamelTestSupport.java 391 | Took: 9.029 seconds (9029 millis)
+2018-09-17 18:10:24,179 | INFO | CamelTestSupport.java 391 | Took: 9.029 seconds (9029 millis)
+2018-09-17 18:10:24,179 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-17 18:10:24,179 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-17 18:10:24,184 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-17 18:10:24,184 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-17 18:10:24,187 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://exception
+2018-09-17 18:10:24,187 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-17 18:10:24,197 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 9.191 seconds
+2018-09-17 18:10:24,198 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.014 seconds

@@ -34,3 +34,6 @@ This repo contains the samples according to the Udemy course "Apache Camel for b
 23. Marshaling CSV with Link
 24. Unmarshal fixed length file
 25. Unmarshal with Date fields
+26. Unmarshal with fixed length fields
+27. Error Handling Introduction
+28. Default ErrorHandler
