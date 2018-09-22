@@ -6202,3 +6202,287 @@ java.lang.NullPointerException
 2018-09-22 10:00:01,507 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
 2018-09-22 10:00:01,518 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.174 seconds
 2018-09-22 10:00:01,519 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2018-09-22 10:28:30,238 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-22 10:28:30,238 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-22 10:28:30,240 | INFO | CamelTestSupport.java 244 | Testing: test(at.hochbichler.eip.AggregatorSimpleRouteTest)
+2018-09-22 10:28:30,240 | INFO | CamelTestSupport.java 244 | Testing: test(at.hochbichler.eip.AggregatorSimpleRouteTest)
+2018-09-22 10:28:30,241 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-22 10:28:30,241 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-22 10:28:30,593 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-22 10:28:30,594 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-22 10:28:30,648 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-09-22 10:28:30,783 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-22 10:28:30,788 | INFO | AggregateProcessor.java 1340 | Defaulting to MemoryAggregationRepository
+2018-09-22 10:28:30,791 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://simpleAggregator
+2018-09-22 10:28:30,791 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-22 10:28:30,794 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.199 seconds
+2018-09-22 10:28:35,805 | INFO | CamelLogger.java 159 | Received message 1 and key 1
+2018-09-22 10:28:35,808 | INFO | CamelLogger.java 159 | Received message 2 and key 1
+2018-09-22 10:28:35,808 | INFO | CamelLogger.java 159 | Received message 4 and key 2
+2018-09-22 10:28:35,809 | INFO | CamelLogger.java 159 | Received message 3 and key 1
+2018-09-22 10:28:35,810 | INFO | CamelLogger.java 159 | Aggregated message 123 and key 1
+2018-09-22 10:28:35,812 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-09-22 10:28:35,812 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-22 10:28:35,812 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-22 10:28:35,812 | INFO | CamelTestSupport.java 390 | Testing done: test(at.hochbichler.eip.AggregatorSimpleRouteTest)
+2018-09-22 10:28:35,812 | INFO | CamelTestSupport.java 390 | Testing done: test(at.hochbichler.eip.AggregatorSimpleRouteTest)
+2018-09-22 10:28:35,812 | INFO | CamelTestSupport.java 391 | Took: 5.018 seconds (5018 millis)
+2018-09-22 10:28:35,812 | INFO | CamelTestSupport.java 391 | Took: 5.018 seconds (5018 millis)
+2018-09-22 10:28:35,813 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-22 10:28:35,813 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-22 10:28:35,817 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-22 10:28:35,818 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-22 10:28:35,821 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://simpleAggregator
+2018-09-22 10:28:35,821 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-22 10:28:35,831 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.239 seconds
+2018-09-22 10:28:35,831 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.014 seconds
+2018-09-22 10:35:49,873 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-22 10:35:49,873 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-22 10:35:49,876 | INFO | CamelTestSupport.java 244 | Testing: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:35:49,876 | INFO | CamelTestSupport.java 244 | Testing: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:35:49,876 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-22 10:35:49,876 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-22 10:35:50,210 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-22 10:35:50,211 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-22 10:35:50,257 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-09-22 10:35:50,391 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-22 10:35:50,400 | INFO | AggregateProcessor.java 1340 | Defaulting to MemoryAggregationRepository
+2018-09-22 10:35:50,402 | INFO | AggregateProcessor.java 1400 | Using CompletionTimeout to trigger after 3000 millis of inactivity.
+2018-09-22 10:35:50,412 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://simpleAggregator
+2018-09-22 10:35:50,412 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-22 10:35:50,414 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.203 seconds
+2018-09-22 10:35:55,426 | INFO | CamelLogger.java 159 | Receive message 1 and header §{header.aggregatorId}
+2018-09-22 10:35:55,429 | INFO | CamelLogger.java 159 | Receive message 2 and header §{header.aggregatorId}
+2018-09-22 10:35:55,429 | INFO | CamelLogger.java 159 | Receive message 4 and header §{header.aggregatorId}
+2018-09-22 10:35:59,431 | INFO | CamelLogger.java 159 | Aggregated message 12 and header §{header.aggregatorId}
+2018-09-22 10:35:59,433 | INFO | CamelLogger.java 159 | Aggregated message 4 and header §{header.aggregatorId}
+2018-09-22 10:36:00,434 | INFO | CamelLogger.java 159 | Receive message 3 and header §{header.aggregatorId}
+2018-09-22 10:36:00,434 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-09-22 10:36:00,434 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-22 10:36:00,434 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-22 10:36:00,435 | INFO | CamelTestSupport.java 390 | Testing done: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:36:00,435 | INFO | CamelTestSupport.java 390 | Testing done: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:36:00,435 | INFO | CamelTestSupport.java 391 | Took: 10.019 seconds (10019 millis)
+2018-09-22 10:36:00,435 | INFO | CamelTestSupport.java 391 | Took: 10.019 seconds (10019 millis)
+2018-09-22 10:36:00,435 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-22 10:36:00,435 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-22 10:36:00,440 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-22 10:36:00,440 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-22 10:36:00,442 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://simpleAggregator
+2018-09-22 10:36:00,442 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-22 10:36:00,460 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 10.251 seconds
+2018-09-22 10:36:00,460 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.020 seconds
+2018-09-22 10:36:28,416 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-22 10:36:28,416 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-22 10:36:28,418 | INFO | CamelTestSupport.java 244 | Testing: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:36:28,418 | INFO | CamelTestSupport.java 244 | Testing: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:36:28,419 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-22 10:36:28,419 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-22 10:36:28,753 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-22 10:36:28,754 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-22 10:36:28,791 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-09-22 10:36:28,864 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-22 10:36:28,867 | INFO | AggregateProcessor.java 1340 | Defaulting to MemoryAggregationRepository
+2018-09-22 10:36:28,869 | INFO | AggregateProcessor.java 1400 | Using CompletionTimeout to trigger after 3000 millis of inactivity.
+2018-09-22 10:36:28,874 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://simpleAggregator
+2018-09-22 10:36:28,874 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-22 10:36:28,876 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.122 seconds
+2018-09-22 10:36:33,885 | INFO | CamelLogger.java 159 | Receive message 1 and header §{header.aggregatorId}
+2018-09-22 10:36:33,889 | INFO | CamelLogger.java 159 | Receive message 2 and header §{header.aggregatorId}
+2018-09-22 10:36:33,889 | INFO | CamelLogger.java 159 | Receive message 4 and header §{header.aggregatorId}
+2018-09-22 10:36:36,901 | INFO | CamelLogger.java 159 | Aggregated message 12 and header §{header.aggregatorId}
+2018-09-22 10:36:36,902 | INFO | CamelLogger.java 159 | Aggregated message 4 and header §{header.aggregatorId}
+2018-09-22 10:36:38,894 | INFO | CamelLogger.java 159 | Receive message 3 and header §{header.aggregatorId}
+2018-09-22 10:36:38,894 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-09-22 10:36:38,894 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-22 10:36:38,894 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-22 10:36:38,895 | INFO | CamelTestSupport.java 390 | Testing done: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:36:38,895 | INFO | CamelTestSupport.java 390 | Testing done: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:36:38,895 | INFO | CamelTestSupport.java 391 | Took: 10.017 seconds (10017 millis)
+2018-09-22 10:36:38,895 | INFO | CamelTestSupport.java 391 | Took: 10.017 seconds (10017 millis)
+2018-09-22 10:36:38,895 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-22 10:36:38,895 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-22 10:36:38,899 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-22 10:36:38,900 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-22 10:36:38,902 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://simpleAggregator
+2018-09-22 10:36:38,902 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-22 10:36:38,912 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 10.160 seconds
+2018-09-22 10:36:38,912 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.013 seconds
+2018-09-22 10:36:54,663 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-22 10:36:54,663 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-22 10:36:54,665 | INFO | CamelTestSupport.java 244 | Testing: test(at.hochbichler.eip.AggregatorSimpleRouteTest)
+2018-09-22 10:36:54,665 | INFO | CamelTestSupport.java 244 | Testing: test(at.hochbichler.eip.AggregatorSimpleRouteTest)
+2018-09-22 10:36:54,665 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-22 10:36:54,665 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-22 10:36:54,995 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-22 10:36:54,996 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-22 10:36:55,037 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-09-22 10:36:55,139 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-22 10:36:55,147 | INFO | AggregateProcessor.java 1340 | Defaulting to MemoryAggregationRepository
+2018-09-22 10:36:55,151 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://simpleAggregator
+2018-09-22 10:36:55,151 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-22 10:36:55,153 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.157 seconds
+2018-09-22 10:37:00,164 | INFO | CamelLogger.java 159 | Received message 1 and key 1
+2018-09-22 10:37:00,166 | INFO | CamelLogger.java 159 | Received message 2 and key 1
+2018-09-22 10:37:00,167 | INFO | CamelLogger.java 159 | Received message 4 and key 2
+2018-09-22 10:37:00,168 | INFO | CamelLogger.java 159 | Received message 3 and key 1
+2018-09-22 10:37:00,170 | INFO | CamelLogger.java 159 | Aggregated message 123 and key 1
+2018-09-22 10:37:00,171 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-09-22 10:37:00,171 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-22 10:37:00,171 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-22 10:37:00,172 | INFO | CamelTestSupport.java 390 | Testing done: test(at.hochbichler.eip.AggregatorSimpleRouteTest)
+2018-09-22 10:37:00,172 | INFO | CamelTestSupport.java 390 | Testing done: test(at.hochbichler.eip.AggregatorSimpleRouteTest)
+2018-09-22 10:37:00,172 | INFO | CamelTestSupport.java 391 | Took: 5.017 seconds (5017 millis)
+2018-09-22 10:37:00,172 | INFO | CamelTestSupport.java 391 | Took: 5.017 seconds (5017 millis)
+2018-09-22 10:37:00,172 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-22 10:37:00,172 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-22 10:37:00,177 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-22 10:37:00,177 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-22 10:37:00,180 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://simpleAggregator
+2018-09-22 10:37:00,180 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-22 10:37:00,191 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.197 seconds
+2018-09-22 10:37:00,191 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.015 seconds
+2018-09-22 10:39:32,420 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-22 10:39:32,420 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-22 10:39:32,424 | INFO | CamelTestSupport.java 244 | Testing: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:39:32,424 | INFO | CamelTestSupport.java 244 | Testing: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:39:32,424 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-22 10:39:32,424 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-22 10:39:32,768 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-22 10:39:32,769 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-22 10:39:32,807 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-09-22 10:39:32,939 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-22 10:39:32,951 | INFO | AggregateProcessor.java 1340 | Defaulting to MemoryAggregationRepository
+2018-09-22 10:39:32,953 | INFO | AggregateProcessor.java 1400 | Using CompletionTimeout to trigger after 3000 millis of inactivity.
+2018-09-22 10:39:32,959 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://simpleAggregator
+2018-09-22 10:39:32,960 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-22 10:39:32,963 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.192 seconds
+2018-09-22 10:39:37,974 | INFO | CamelLogger.java 159 | Receive message 1 and header §{header.aggregatorId}
+2018-09-22 10:39:37,977 | INFO | CamelLogger.java 159 | Receive message 2 and header §{header.aggregatorId}
+2018-09-22 10:39:37,977 | INFO | CamelLogger.java 159 | Receive message 4 and header §{header.aggregatorId}
+2018-09-22 10:39:40,988 | INFO | CamelLogger.java 159 | Aggregated message 12 and header §{header.aggregatorId}
+2018-09-22 10:39:40,990 | INFO | CamelLogger.java 159 | Aggregated message 4 and header §{header.aggregatorId}
+2018-09-22 10:39:42,980 | INFO | CamelLogger.java 159 | Receive message 3 and header §{header.aggregatorId}
+2018-09-22 10:39:42,981 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-09-22 10:39:42,981 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-22 10:39:42,981 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-22 10:39:42,982 | INFO | CamelTestSupport.java 390 | Testing done: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:39:42,982 | INFO | CamelTestSupport.java 390 | Testing done: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:39:42,982 | INFO | CamelTestSupport.java 391 | Took: 10.018 seconds (10018 millis)
+2018-09-22 10:39:42,982 | INFO | CamelTestSupport.java 391 | Took: 10.018 seconds (10018 millis)
+2018-09-22 10:39:42,982 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-22 10:39:42,982 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-22 10:39:42,985 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-22 10:39:42,985 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-22 10:39:42,988 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://simpleAggregator
+2018-09-22 10:39:42,988 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-22 10:39:42,997 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 10.229 seconds
+2018-09-22 10:39:42,997 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.012 seconds
+2018-09-22 10:40:57,830 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-22 10:40:57,830 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-22 10:40:57,833 | INFO | CamelTestSupport.java 244 | Testing: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:40:57,833 | INFO | CamelTestSupport.java 244 | Testing: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:40:57,833 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-22 10:40:57,833 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-22 10:40:58,181 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-22 10:40:58,182 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-22 10:40:58,220 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-09-22 10:40:58,342 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-22 10:40:58,345 | INFO | AggregateProcessor.java 1340 | Defaulting to MemoryAggregationRepository
+2018-09-22 10:40:58,347 | INFO | AggregateProcessor.java 1400 | Using CompletionTimeout to trigger after 3000 millis of inactivity.
+2018-09-22 10:40:58,353 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://simpleAggregator
+2018-09-22 10:40:58,354 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-22 10:40:58,357 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.174 seconds
+2018-09-22 10:40:58,366 | INFO | CamelLogger.java 159 | Receive message 1 and header §{header.aggregatorId}
+2018-09-22 10:40:58,377 | INFO | CamelLogger.java 159 | Receive message 2 and header §{header.aggregatorId}
+2018-09-22 10:40:58,379 | INFO | CamelLogger.java 159 | Receive message 4 and header §{header.aggregatorId}
+2018-09-22 10:41:02,370 | INFO | CamelLogger.java 159 | Aggregated message 12 and header §{header.aggregatorId}
+2018-09-22 10:41:02,372 | INFO | CamelLogger.java 159 | Aggregated message 4 and header §{header.aggregatorId}
+2018-09-22 10:41:03,381 | INFO | CamelLogger.java 159 | Receive message 3 and header §{header.aggregatorId}
+2018-09-22 10:41:03,382 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-09-22 10:41:03,382 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-22 10:41:03,382 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-22 10:41:03,382 | INFO | CamelTestSupport.java 390 | Testing done: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:41:03,382 | INFO | CamelTestSupport.java 390 | Testing done: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:41:03,382 | INFO | CamelTestSupport.java 391 | Took: 5.024 seconds (5024 millis)
+2018-09-22 10:41:03,382 | INFO | CamelTestSupport.java 391 | Took: 5.024 seconds (5024 millis)
+2018-09-22 10:41:03,383 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-22 10:41:03,383 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-22 10:41:03,388 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-22 10:41:03,389 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-22 10:41:03,391 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://simpleAggregator
+2018-09-22 10:41:03,391 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-22 10:41:03,408 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.228 seconds
+2018-09-22 10:41:03,409 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.021 seconds
+2018-09-22 10:41:32,563 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-22 10:41:32,563 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-22 10:41:32,565 | INFO | CamelTestSupport.java 244 | Testing: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:41:32,565 | INFO | CamelTestSupport.java 244 | Testing: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:41:32,565 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-22 10:41:32,565 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-22 10:41:32,895 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-22 10:41:32,896 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-22 10:41:32,934 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-09-22 10:41:33,037 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-22 10:41:33,041 | INFO | AggregateProcessor.java 1340 | Defaulting to MemoryAggregationRepository
+2018-09-22 10:41:33,055 | INFO | AggregateProcessor.java 1400 | Using CompletionTimeout to trigger after 3000 millis of inactivity.
+2018-09-22 10:41:33,071 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://simpleAggregator
+2018-09-22 10:41:33,071 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-22 10:41:33,074 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.177 seconds
+2018-09-22 10:41:33,083 | INFO | CamelLogger.java 159 | Receive message 1 and header 1
+2018-09-22 10:41:33,087 | INFO | CamelLogger.java 159 | Receive message 2 and header 1
+2018-09-22 10:41:33,087 | INFO | CamelLogger.java 159 | Receive message 4 and header 2
+2018-09-22 10:41:37,071 | INFO | CamelLogger.java 159 | Aggregated message 12 and header 1
+2018-09-22 10:41:37,073 | INFO | CamelLogger.java 159 | Aggregated message 4 and header 2
+2018-09-22 10:41:38,091 | INFO | CamelLogger.java 159 | Receive message 3 and header 1
+2018-09-22 10:41:38,091 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-09-22 10:41:38,091 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-22 10:41:38,091 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-22 10:41:38,092 | INFO | CamelTestSupport.java 390 | Testing done: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:41:38,092 | INFO | CamelTestSupport.java 390 | Testing done: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:41:38,092 | INFO | CamelTestSupport.java 391 | Took: 5.016 seconds (5016 millis)
+2018-09-22 10:41:38,092 | INFO | CamelTestSupport.java 391 | Took: 5.016 seconds (5016 millis)
+2018-09-22 10:41:38,092 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-22 10:41:38,092 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-22 10:41:38,096 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-22 10:41:38,097 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-22 10:41:38,099 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://simpleAggregator
+2018-09-22 10:41:38,099 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-22 10:41:38,109 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.214 seconds
+2018-09-22 10:41:38,109 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.013 seconds
+2018-09-22 10:44:06,676 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-22 10:44:06,676 | INFO | CamelTestSupport.java 243 | ********************************************************************************
+2018-09-22 10:44:06,680 | INFO | CamelTestSupport.java 244 | Testing: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:44:06,680 | INFO | CamelTestSupport.java 244 | Testing: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:44:06,680 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-22 10:44:06,680 | INFO | CamelTestSupport.java 245 | ********************************************************************************
+2018-09-22 10:44:07,129 | INFO | DefaultCamelContext.java 3146 | Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2018-09-22 10:44:07,131 | INFO | DefaultManagementStrategy.java 232 | JMX is disabled
+2018-09-22 10:44:07,185 | INFO | DefaultTypeConverter.java 66 | Type converters loaded (core: 192, classpath: 1)
+2018-09-22 10:44:07,307 | INFO | DefaultCamelContext.java 3466 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2018-09-22 10:44:07,312 | INFO | AggregateProcessor.java 1340 | Defaulting to MemoryAggregationRepository
+2018-09-22 10:44:07,314 | INFO | AggregateProcessor.java 1400 | Using CompletionTimeout to trigger after 3000 millis of inactivity.
+2018-09-22 10:44:07,320 | INFO | DefaultCamelContext.java 4026 | Route: route1 started and consuming from: direct://simpleAggregator
+2018-09-22 10:44:07,321 | INFO | DefaultCamelContext.java 3195 | Total 1 routes, of which 1 are started
+2018-09-22 10:44:07,323 | INFO | DefaultCamelContext.java 3207 | Apache Camel 2.20.1 (CamelContext: camel-1) started in 0.192 seconds
+2018-09-22 10:44:07,338 | INFO | CamelLogger.java 159 | Receive message 1 and header 1
+2018-09-22 10:44:07,345 | INFO | CamelLogger.java 159 | Receive message 2 and header 1
+2018-09-22 10:44:07,346 | INFO | CamelLogger.java 159 | Receive message 4 and header 2
+2018-09-22 10:44:11,334 | INFO | CamelLogger.java 159 | Aggregated message 12 and header 1
+2018-09-22 10:44:11,335 | INFO | CamelLogger.java 159 | Aggregated message 4 and header 2
+2018-09-22 10:44:12,350 | INFO | CamelLogger.java 159 | Receive message 3 and header 1
+2018-09-22 10:44:12,358 | INFO | MockEndpoint.java 383 | Asserting: mock://output is satisfied
+2018-09-22 10:44:12,359 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-22 10:44:12,359 | INFO | CamelTestSupport.java 389 | ********************************************************************************
+2018-09-22 10:44:12,359 | INFO | CamelTestSupport.java 390 | Testing done: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:44:12,359 | INFO | CamelTestSupport.java 390 | Testing done: test(at.hochbichler.eip.AggregatorCompletionTimeoutRouteTest)
+2018-09-22 10:44:12,359 | INFO | CamelTestSupport.java 391 | Took: 5.035 seconds (5035 millis)
+2018-09-22 10:44:12,359 | INFO | CamelTestSupport.java 391 | Took: 5.035 seconds (5035 millis)
+2018-09-22 10:44:12,359 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-22 10:44:12,359 | INFO | CamelTestSupport.java 420 | ********************************************************************************
+2018-09-22 10:44:12,361 | INFO | DefaultCamelContext.java 3497 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2018-09-22 10:44:12,362 | INFO | DefaultShutdownStrategy.java 195 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2018-09-22 10:44:12,364 | INFO | DefaultShutdownStrategy.java 671 | Route: route1 shutdown complete, was consuming from: direct://simpleAggregator
+2018-09-22 10:44:12,364 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2018-09-22 10:44:12,374 | INFO | DefaultCamelContext.java 3588 | Apache Camel 2.20.1 (CamelContext: camel-1) uptime 5.245 seconds
+2018-09-22 10:44:12,374 | INFO | DefaultCamelContext.java 3589 | Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.013 seconds

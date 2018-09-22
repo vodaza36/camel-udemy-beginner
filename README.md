@@ -45,4 +45,7 @@ This repo contains the samples according to the Udemy course "Apache Camel for b
 33. Multicast EIP
 34. Recipient List EIP
 35. WireTap EIP
+36. Aggregator EIP
+37. Aggregator Completion Timeout EIP
+38. Aggregator with completion predicate
 
