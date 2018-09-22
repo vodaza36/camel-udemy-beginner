@@ -7,6 +7,7 @@ This repo contains the samples according to the Udemy course "Apache Camel for b
 - [Source Code for this course](<https://github.com/dsaish3/TeachApacheCamel>)
 - [All Camel Components](<http://camel.apache.org/components.html>)
 - [Camel DSL](<http://camel.apache.org/dsl.html>)
+- [Camel Enterprise Integration Patterns](<http://camel.apache.org/eip.html>)
 
 ## Lessons
 1. Setup a route to copy files from source to destination folder
@@ -39,3 +40,8 @@ This repo contains the samples according to the Udemy course "Apache Camel for b
 28. Default ErrorHandler
 29. OnException
 30. ErrorHandler Approach 2
+31. Camel EIP's Overview
+32. Content Based Router
+33. Multicast EIP
+34. Recipient List EIP
+
