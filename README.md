@@ -44,4 +44,5 @@ This repo contains the samples according to the Udemy course "Apache Camel for b
 32. Content Based Router
 33. Multicast EIP
 34. Recipient List EIP
+35. WireTap EIP
 
