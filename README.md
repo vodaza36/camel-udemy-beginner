@@ -37,3 +37,5 @@ This repo contains the samples according to the Udemy course "Apache Camel for b
 26. Unmarshal with fixed length fields
 27. Error Handling Introduction
 28. Default ErrorHandler
+29. OnException
+30. ErrorHandler Approach 2

@@ -5,7 +5,7 @@ import java.util.logging.Logger;
 public class DataModifier {
     Logger log = Logger.getLogger(DataModifier.class.getName());
 
-    public String map(String input) {
+    public String mapOnException(String input) {
         String newBody = null;
         try {
             newBody = input.replace(",", "*");

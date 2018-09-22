@@ -1,4 +1,4 @@
-package at.hochbichler.camel.defaulterrorhandler;
+package at.hochbichler.camel.route.defaulterrorhandler;
 
 import at.hochbichler.camel.bean.DataModifier;
 import org.apache.camel.LoggingLevel;
